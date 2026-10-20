@@ -1,15 +1,15 @@
 {
- "ran_at": "2026-10-20T07:16+00:00",
+ "ran_at": "2026-10-20T18:18+00:00",
  "counts": {
-  "fetched": 950,
-  "relevant": 10,
-  "new": 10,
+  "fetched": 942,
+  "relevant": 9,
+  "new": 9,
   "by_company": {
-   "PTC": 147,
-   "CSG International": 15,
-   "Marsh McLennan": 313,
-   "Synechron": 126,
-   "Amazon": 349
+   "PTC": 148,
+   "CSG International": 16,
+   "Marsh McLennan": 315,
+   "Synechron": 117,
+   "Amazon": 346
   }
  },
  "errors": [],
@@ -156,23 +156,6 @@
     "category": "",
     "posted_date": "2026-10-14",
     "summary": "involves applying knowledge of software systems, data structures, database management, cloud infrastructure, software architecture, and Agile delivery practices to support technology initiatives.\n The successful candidate will lead and manage cross-functional technology teams, translate business requirements into technology solutions, guide technical implementation, evaluate emerging technologies, and support the delivery of scalable and maintainable data-oriented solutions. The role contributes to business objectives by improving technology delivery, supporting informed technical decisions, increasing operational efficiency, and aligning technology initiatives with organizational…"
-   }
-  },
-  {
-   "company": "Synechron",
-   "job_id": "JR1040007-1",
-   "title": "HRIS Analyst – Workday Absence & HCM",
-   "location": "Pune - Hinjewadi (Ascendas); Bengaluru - EC-2 Gateway campus; Gurugram; Chennai - Taramani (Ascendas); Mumbai (India)",
-   "posted": "Posted 13 Days Ago",
-   "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Pune---Hinjewadi-Ascendas/HRIS-Analyst---Workday-Absence---HCM_JR1040007-1",
-   "source": "workday",
-   "details": {
-    "tech": [],
-    "experience": "2+ years",
-    "employment": "Full time",
-    "category": "",
-    "posted_date": "2026-10-07",
-    "summary": "The HRIS Analyst supports the configuration, maintenance, and optimization of Workday Absence Management and core HCM. This role partners closely with HR, Legal, and internal application teams to ensure absence plans and employee data are accurately maintained, compliant, and aligned with company policy. \n Key Responsibilities \n Configure and maintain absence plans, accrual policies, and time off types in Workday \n Support core HCM functions including org management, job and position data, and business process configuration \n Troubleshoot and resolve absence and HCM-related system issues and employee/manager inquiries \n Partner with HR and Legal to translate policy changes into system…"
    }
   },
   {

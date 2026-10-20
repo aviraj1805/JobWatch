@@ -112,8 +112,11 @@ and filter you set up.
 
 - **Role**: the title must match `ROLE_PATTERN` and must not match `EXCLUDE_PATTERN`
   (senior, lead, manager, II/III...).
-- **Location**: must mention Pune, Maharashtra, India, remote or hybrid, or be
-  a multi-location posting. Email-sourced jobs have no location and are kept.
+- **Location**: must mention Pune, Maharashtra, India, remote or hybrid as a
+  whole word ("Indiana" does not count). For a Workday "N Locations" posting
+  whose title already matches, one extra request reads the real location list
+  and country, and that is checked instead. If that lookup fails, the posting
+  is kept. Email-sourced jobs have no location and are kept.
 - **Age**: Workday's "Posted 30+ Days Ago" is dropped.
 - **Ranking**: intern/trainee/fresher first, then entry-level, then by skill score.
   The skill score uses `SKILL_WEIGHTS` and is matched against the title only,
@@ -128,4 +131,6 @@ and filter you set up.
 - The Workday URL for Marsh McLennan has not been verified. Their public careers
   site runs on another platform.
 - Global Payments, FIS, John Deere and BMC use custom sites and have no fetcher yet.
-- Multi-location Workday postings are accepted without a location check.
+- Single-location Workday postings in other Indian cities (e.g. "Bengaluru -
+  Bellandur") are dropped, because the list text does not say "India". Add
+  city names to `LOCATION_KEYWORDS` if you want them.

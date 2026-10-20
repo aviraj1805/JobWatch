@@ -42,6 +42,13 @@ class RelevanceTests(unittest.TestCase):
     def test_multi_location_kept(self):
         self.assertTrue(core.relevant(job(location="2 Locations")))
 
+    def test_indiana_is_not_india(self):
+        self.assertFalse(core.relevant(job(location="Hobart, Indiana, USA")))
+
+    def test_resolved_locations_checked(self):
+        self.assertFalse(core.relevant(job(location="Melbourne - 727 Collins; Sydney (Australia)")))
+        self.assertTrue(core.relevant(job(location="Bengaluru - Bellandur; Pune - Hinjewadi (India)")))
+
     def test_posted_30_plus_days_rejected(self):
         self.assertFalse(core.relevant(job(posted="Posted 30+ Days Ago")))
 
@@ -169,6 +176,42 @@ class FetcherTests(unittest.TestCase):
             jobs = fetchers.fetch_lever("X", "x")
         self.assertEqual(jobs[0]["job_id"], "abc")
         self.assertEqual(jobs[0]["posted"], "2026-01-01")
+
+    def test_workday_locations_reads_detail(self):
+        detail = {"jobPostingInfo": {"location": "Bengaluru - Bellandur",
+                                     "additionalLocations": ["Pune - Hinjewadi"],
+                                     "country": {"descriptor": "India"}}}
+        urls = []
+
+        def fake_request(method, url, **kw):
+            urls.append(url)
+            return FakeResponse(payload=detail)
+
+        with mock.patch.object(fetchers.requests, "request", side_effect=fake_request):
+            loc = fetchers.workday_locations(
+                "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Bengaluru/AI-Engineer_JR1")
+        self.assertEqual(urls, ["https://synechron.wd1.myworkdayjobs.com/wday/cxs/synechron/"
+                                "SynechronCareers/job/Bengaluru/AI-Engineer_JR1"])
+        self.assertEqual(loc, "Bengaluru - Bellandur; Pune - Hinjewadi (India)")
+
+
+class LocationResolveTests(unittest.TestCase):
+    def test_only_matching_multi_location_workday_jobs_looked_up(self):
+        jobs = [job(location="3 Locations", source="workday"),
+                job(job_id="JR2", title="Sales Executive", location="3 Locations", source="workday"),
+                job(job_id="JR3", location="Pune", source="workday")]
+        with mock.patch.object(main, "workday_locations", return_value="Berlin (Germany)") as look:
+            main.resolve_locations(jobs)
+        look.assert_called_once_with(jobs[0]["url"])
+        self.assertEqual([j["location"] for j in jobs], ["Berlin (Germany)", "3 Locations", "Pune"])
+
+    def test_failed_lookup_keeps_job(self):
+        jobs = [job(location="3 Locations", source="workday")]
+        with mock.patch.object(main, "workday_locations",
+                               side_effect=fetchers.FetchError("robots")):
+            main.resolve_locations(jobs)
+        self.assertEqual(jobs[0]["location"], "3 Locations")
+        self.assertTrue(core.relevant(jobs[0]))
 
 
 class GmailExtractionTests(unittest.TestCase):

@@ -18,18 +18,30 @@ EXCL_RE = re.compile(config.EXCLUDE_PATTERN, re.I)
 STRONG_RE = re.compile(config.FRESHER_STRONG, re.I)
 WEAK_RE = re.compile(config.FRESHER_WEAK, re.I)
 SKILL_RES = [(re.compile(p, re.I), w) for p, w in config.SKILL_WEIGHTS.items()]
+# Whole words only, so "india" does not match "Indiana"
+LOC_RE = re.compile(r"\b(" + "|".join(map(re.escape, config.LOCATION_KEYWORDS)) + r")\b", re.I)
+MULTI_LOC_RE = re.compile(r"^\d+ locations$", re.I)  # Workday's "4 Locations"
 
 
 def key(job):
     return f"{job['company']}|{job['job_id']}"
 
 
-def relevant(job):
+def title_ok(job):
     title = job["title"]
-    if not ROLE_RE.search(title) or EXCL_RE.search(title):
+    return bool(ROLE_RE.search(title)) and not EXCL_RE.search(title)
+
+
+def is_multi_location(job):
+    return bool(MULTI_LOC_RE.match(job["location"].strip()))
+
+
+def relevant(job):
+    if not title_ok(job):
         return False
-    loc = job["location"].lower()
-    if loc and "locations" not in loc and not any(k in loc for k in config.LOCATION_KEYWORDS):
+    loc = job["location"]
+    # "N Locations" is only left unresolved when the detail lookup failed; keep it.
+    if loc and not is_multi_location(job) and not LOC_RE.search(loc):
         return False
     if "30+" in job.get("posted", ""):  # Workday's "Posted 30+ Days Ago"
         return False

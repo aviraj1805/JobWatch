@@ -13,7 +13,7 @@ import requests
 import config
 import core
 from fetchers import (FetchError, fetch_amazon, fetch_greenhouse, fetch_lever,
-                      fetch_workday)
+                      fetch_workday, workday_locations)
 
 
 def send_telegram(text):
@@ -89,7 +89,22 @@ def collect():
     if config.ENABLE_GMAIL:
         from gmail_reader import fetch_alert_jobs
         run("Gmail alerts", fetch_alert_jobs)
+    resolve_locations(jobs)
     return jobs, errors
+
+
+def resolve_locations(jobs):
+    """Replace Workday's "N Locations" with the real list, for titles that already match.
+
+    One extra request per such posting. If a lookup fails the posting keeps
+    "N Locations" and is still treated as relevant, so nothing is silently lost.
+    """
+    for j in jobs:
+        if j["source"] == "workday" and core.is_multi_location(j) and core.title_ok(j):
+            try:
+                j["location"] = workday_locations(j["url"])
+            except (FetchError, requests.RequestException, ValueError, KeyError) as ex:
+                print(f"WARNING {j['company']} {j['job_id']}: location lookup failed: {ex}")
 
 
 def main():

@@ -113,6 +113,24 @@ def fetch_workday(company, url, search_terms, max_per_term=100):
     return list(jobs.values())
 
 
+def workday_locations(job_url):
+    """All locations of one Workday posting, from its public detail endpoint.
+
+    The job list only says "4 Locations"; the detail has the primary location,
+    additionalLocations and the country. Returns e.g.
+    "Bengaluru - Bellandur (GTP); Pune - Hinjewadi (India)".
+    """
+    p = urlparse(job_url)
+    tenant = p.netloc.split(".")[0]
+    parts = [s for s in p.path.split("/") if s and not LOCALE_RE.match(s)]
+    api = f"https://{p.netloc}/wday/cxs/{tenant}/" + "/".join(parts)
+    info = _request("GET", api).json()["jobPostingInfo"]
+    places = [info.get("location")] + (info.get("additionalLocations") or [])
+    text = "; ".join(x for x in places if x)
+    country = (info.get("country") or {}).get("descriptor")
+    return f"{text} ({country})" if country else text
+
+
 # ---------- Greenhouse / Lever ----------
 
 def fetch_greenhouse(company, token):

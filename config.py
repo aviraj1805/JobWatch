@@ -64,6 +64,51 @@ SKILL_WEIGHTS = {
     r"\banalytics\b": 1,
 }
 
+# Tech stack shown for each opening: label -> regex, matched against the
+# title and description (case-insensitive; (?-i:...) makes a part case-sensitive).
+TECH_KEYWORDS = {
+    "Python": r"\bpython\b",
+    "SQL": r"\bsql\b|\bt-sql\b|\bpl/sql\b",
+    "R": r"(?-i:\bR\b)(?![&/])",
+    "Java": r"\bjava\b(?!script)",
+    "C/C++": r"\bc\s*(?:/|and)\s*c\+\+|\bc\+\+",
+    "JavaScript": r"\bjavascript\b|\btypescript\b|\bnode\.?js\b",
+    "Scala": r"\bscala\b",
+    "Pandas": r"\bpandas\b",
+    "NumPy": r"\bnumpy\b",
+    "scikit-learn": r"\bscikit[- ]learn\b|\bsklearn\b",
+    "TensorFlow": r"\btensorflow\b|\bkeras\b",
+    "PyTorch": r"\bpytorch\b|\btorch\b",
+    "Machine Learning": r"\bmachine learning\b|\bml\b",
+    "Deep Learning": r"\bdeep learning\b|\bneural network",
+    "NLP": r"\bnlp\b|natural language",
+    "GenAI / LLM": r"\bgen ?ai\b|generative ai|\bllms?\b|\bgpt\b|\brag\b|prompt engineering",
+    "Computer Vision": r"computer vision|\bopencv\b",
+    "Statistics": r"\bstatistic",
+    "Spark": r"\bspark\b|\bpyspark\b",
+    "Hadoop / Hive": r"\bhadoop\b|\bhive\b",
+    "Kafka": r"\bkafka\b",
+    "Airflow": r"\bairflow\b",
+    "ETL": r"\betl\b|\belt\b|data pipelines?",
+    "Databricks": r"\bdatabricks\b",
+    "Snowflake": r"\bsnowflake\b",
+    "AWS": r"\baws\b|amazon web services",
+    "Azure": r"\bazure\b",
+    "GCP": r"\bgcp\b|google cloud",
+    "Docker / K8s": r"\bdocker\b|\bkubernetes\b|\bk8s\b",
+    "Git": r"\bgit\b|\bgithub\b",
+    "Linux": r"\blinux\b|\bunix\b",
+    "Excel": r"\bexcel\b",
+    "Power BI": r"\bpower ?bi\b",
+    "Tableau": r"\btableau\b",
+    "NoSQL": r"\bnosql\b|\bmongodb\b|\bcassandra\b",
+    "REST APIs": r"\brest(?:ful)?\s*(?:web )?(?:apis?|services)\b|\bapi development\b",
+    "Salesforce": r"\bsalesforce\b",
+    "SAP": r"\bsap\b",
+    "VMware": r"\bvmware\b",
+    "Agile": r"\bagile\b|\bscrum\b",
+}
+
 # Location must contain one of these (Workday "2 Locations" style is kept)
 LOCATION_KEYWORDS = ["pune", "maharashtra", "india", "remote", "hybrid"]
 

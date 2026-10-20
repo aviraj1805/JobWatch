@@ -15,6 +15,8 @@ from urllib.parse import urlparse
 
 import requests
 
+import details
+
 UA = "Mozilla/5.0 (personal job-alert script; runs twice a day)"
 LOCALE_RE = re.compile(r"^[a-z]{2}-[A-Z]{2}$")  # e.g. en-US
 TIMEOUT = 20
@@ -113,31 +115,47 @@ def fetch_workday(company, url, search_terms, max_per_term=100):
     return list(jobs.values())
 
 
-def workday_locations(job_url):
-    """All locations of one Workday posting, from its public detail endpoint.
+def fetch_workday_detail(job_url):
+    """One Workday posting's public detail (description, all locations, time type, dates).
 
-    The job list only says "4 Locations"; the detail has the primary location,
-    additionalLocations and the country. Returns e.g.
-    "Bengaluru - Bellandur (GTP); Pune - Hinjewadi (India)".
+    The job list has none of these; it only says e.g. "4 Locations".
     """
     p = urlparse(job_url)
     tenant = p.netloc.split(".")[0]
     parts = [s for s in p.path.split("/") if s and not LOCALE_RE.match(s)]
     api = f"https://{p.netloc}/wday/cxs/{tenant}/" + "/".join(parts)
-    info = _request("GET", api).json()["jobPostingInfo"]
+    return _request("GET", api).json()["jobPostingInfo"]
+
+
+def workday_location_text(info):
+    """e.g. "Bengaluru - Bellandur (GTP); Pune - Hinjewadi (India)"."""
     places = [info.get("location")] + (info.get("additionalLocations") or [])
     text = "; ".join(x for x in places if x)
     country = (info.get("country") or {}).get("descriptor")
     return f"{text} ({country})" if country else text
 
 
+def workday_details(info, title):
+    return details.build(details.html_to_text(info.get("jobDescription")), title,
+                         employment=info.get("timeType") or "",
+                         posted_date=info.get("startDate") or "")
+
+
 # ---------- Greenhouse / Lever ----------
 
 def fetch_greenhouse(company, token):
-    r = _request("GET", f"https://boards-api.greenhouse.io/v1/boards/{token}/jobs")
-    return [_job(company, j["id"], j.get("title"), (j.get("location") or {}).get("name"),
-                 (j.get("updated_at") or "")[:10], j.get("absolute_url"), "greenhouse")
-            for j in r.json().get("jobs", [])]
+    r = _request("GET", f"https://boards-api.greenhouse.io/v1/boards/{token}/jobs",
+                 params={"content": "true"})
+    out = []
+    for j in r.json().get("jobs", []):
+        posted = (j.get("updated_at") or "")[:10]
+        job = _job(company, j["id"], j.get("title"), (j.get("location") or {}).get("name"),
+                   posted, j.get("absolute_url"), "greenhouse")
+        dept = ", ".join(d.get("name", "") for d in j.get("departments") or [])
+        job["details"] = details.build(details.html_to_text(j.get("content")), job["title"],
+                                       category=dept, posted_date=posted)
+        out.append(job)
+    return out
 
 
 def fetch_lever(company, site):
@@ -147,8 +165,15 @@ def fetch_lever(company, site):
         posted = ""
         if j.get("createdAt"):
             posted = datetime.fromtimestamp(j["createdAt"] / 1000, tz=timezone.utc).date().isoformat()
-        out.append(_job(company, j["id"], j.get("text"), (j.get("categories") or {}).get("location"),
-                        posted, j.get("hostedUrl"), "lever"))
+        cats = j.get("categories") or {}
+        job = _job(company, j["id"], j.get("text"), cats.get("location"),
+                   posted, j.get("hostedUrl"), "lever")
+        lists = "\n".join(f"{x.get('text', '')}: {details.html_to_text(x.get('content'))}"
+                          for x in j.get("lists") or [])
+        text = f"{j.get('descriptionPlain') or ''}\n{lists}\n{j.get('additionalPlain') or ''}"
+        job["details"] = details.build(text, job["title"], employment=cats.get("commitment") or "",
+                                       category=cats.get("team") or "", posted_date=posted)
+        out.append(job)
     return out
 
 
@@ -162,8 +187,15 @@ def fetch_amazon(search_terms, location="India"):
                              "result_limit": 100, "sort": "recent"})
         for j in r.json().get("jobs", []):
             job_id = str(j.get("id_icims") or j.get("id"))
-            jobs[job_id] = _job("Amazon", job_id, j.get("title"),
-                                j.get("normalized_location") or j.get("location"),
-                                j.get("posted_date"),
-                                "https://www.amazon.jobs" + j.get("job_path", ""), "amazon")
+            job = _job("Amazon", job_id, j.get("title"),
+                       j.get("normalized_location") or j.get("location"),
+                       j.get("posted_date"),
+                       "https://www.amazon.jobs" + j.get("job_path", ""), "amazon")
+            text = "\n".join(details.html_to_text(j.get(k)) for k in
+                             ("description", "basic_qualifications", "preferred_qualifications"))
+            job["details"] = details.build(text, job["title"],
+                                           employment=j.get("job_schedule_type") or "",
+                                           category=j.get("job_category") or "",
+                                           posted_date=j.get("posted_date") or "")
+            jobs[job_id] = job
     return list(jobs.values())

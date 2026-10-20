@@ -3,7 +3,16 @@
  "counts": {
   "fetched": 41,
   "relevant": 8,
-  "new": 4
+  "new": 4,
+  "by_company": {
+   "Sample Co A": 2,
+   "Sample Co B": 2,
+   "Sample Co C": 1,
+   "Sample Co D": 1,
+   "Sample Co E": 1,
+   "Sample Co F": 1,
+   "Sample Co G": 33
+  }
  },
  "errors": [
   "Sample Co Z: example error shown in the Source problems box"
@@ -16,7 +25,21 @@
    "location": "Pune, Maharashtra, India",
    "posted": "Posted 2 Days Ago",
    "url": "https://example.com/jobs/SA-101",
-   "source": "sample"
+   "source": "sample",
+   "details": {
+    "tech": [
+     "Python",
+     "SQL",
+     "Pandas",
+     "Machine Learning",
+     "Statistics"
+    ],
+    "experience": "Fresher / intern",
+    "employment": "Internship",
+    "category": "",
+    "posted_date": "2026-10-18",
+    "summary": "Work with the analytics team to clean data, build dashboards and train simple classification models. Final-year students welcome."
+   }
   },
   {
    "company": "Sample Co B",
@@ -25,7 +48,21 @@
    "location": "Pune, India (Hybrid)",
    "posted": "Posted Today",
    "url": "https://example.com/jobs/SB-212",
-   "source": "sample"
+   "source": "sample",
+   "details": {
+    "tech": [
+     "Python",
+     "PyTorch",
+     "Machine Learning",
+     "Deep Learning",
+     "Git"
+    ],
+    "experience": "Fresher friendly",
+    "employment": "Internship",
+    "category": "",
+    "posted_date": "2026-10-20",
+    "summary": "Help prototype ML features: data preparation, model training and evaluation. Freshers with strong Python are encouraged to apply."
+   }
   },
   {
    "company": "Sample Co C",
@@ -34,7 +71,20 @@
    "location": "Pune",
    "posted": "Posted 3 Days Ago",
    "url": "https://example.com/jobs/SC-330",
-   "source": "sample"
+   "source": "sample",
+   "details": {
+    "tech": [
+     "Python",
+     "scikit-learn",
+     "SQL",
+     "Machine Learning"
+    ],
+    "experience": "0–1 years",
+    "employment": "Full time",
+    "category": "",
+    "posted_date": "2026-10-17",
+    "summary": "Six-month trainee programme covering feature engineering, model deployment basics and code reviews."
+   }
   },
   {
    "company": "Sample Co A",
@@ -43,7 +93,20 @@
    "location": "Pune, Maharashtra, India",
    "posted": "Posted Yesterday",
    "url": "https://example.com/jobs/SA-102",
-   "source": "sample"
+   "source": "sample",
+   "details": {
+    "tech": [
+     "SQL",
+     "Excel",
+     "Power BI",
+     "Python"
+    ],
+    "experience": "0–2 years",
+    "employment": "Full time",
+    "category": "",
+    "posted_date": "2026-10-19",
+    "summary": "Own weekly business reports, write SQL against the warehouse and turn findings into Power BI dashboards."
+   }
   },
   {
    "company": "Sample Co D",
@@ -52,7 +115,20 @@
    "location": "Remote, India",
    "posted": "Posted 4 Days Ago",
    "url": "https://example.com/jobs/SD-07",
-   "source": "sample"
+   "source": "sample",
+   "details": {
+    "tech": [
+     "SQL",
+     "Tableau",
+     "Python",
+     "Statistics"
+    ],
+    "experience": "0–2 years",
+    "employment": "Full time",
+    "category": "",
+    "posted_date": "2026-10-16",
+    "summary": "Remote graduate role analysing product usage data and presenting insights to product managers."
+   }
   },
   {
    "company": "Sample Co E",
@@ -61,7 +137,21 @@
    "location": "Pune",
    "posted": "Posted 1 Day Ago",
    "url": "https://example.com/jobs/SE-55",
-   "source": "sample"
+   "source": "sample",
+   "details": {
+    "tech": [
+     "Python",
+     "GenAI / LLM",
+     "NLP",
+     "REST APIs",
+     "AWS"
+    ],
+    "experience": "1–2 years",
+    "employment": "Full time",
+    "category": "",
+    "posted_date": "2026-10-19",
+    "summary": "Build retrieval-augmented chat features with LLM APIs, evaluate prompts and ship them behind REST services."
+   }
   },
   {
    "company": "Sample Co B",
@@ -70,7 +160,22 @@
    "location": "Pune, India",
    "posted": "Posted 6 Days Ago",
    "url": "https://example.com/jobs/SB-301",
-   "source": "sample"
+   "source": "sample",
+   "details": {
+    "tech": [
+     "Python",
+     "SQL",
+     "Spark",
+     "Machine Learning",
+     "Statistics",
+     "AWS"
+    ],
+    "experience": "2–4 years",
+    "employment": "Full time",
+    "category": "",
+    "posted_date": "2026-10-14",
+    "summary": "Design experiments, build forecasting models and partner with engineering to productionise them."
+   }
   },
   {
    "company": "Sample Co F",
@@ -79,7 +184,20 @@
    "location": "Pune (Hybrid)",
    "posted": "Posted Today",
    "url": "https://example.com/jobs/SF-18",
-   "source": "sample"
+   "source": "sample",
+   "details": {
+    "tech": [
+     "Python",
+     "PyTorch",
+     "Computer Vision",
+     "Deep Learning"
+    ],
+    "experience": "Fresher / intern",
+    "employment": "Internship",
+    "category": "",
+    "posted_date": "2026-10-20",
+    "summary": "Research internship on vision models: reproduce papers, run ablations and write up results."
+   }
   }
  ]
 }

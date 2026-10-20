@@ -25,6 +25,7 @@ Scope and rules the tool follows:
 | `fetchers.py` | Workday, Greenhouse, Lever and Amazon fetchers, plus the robots.txt check |
 | `gmail_reader.py` | Optional. Reads job-alert emails (LinkedIn, Indeed, Naukri) from a Gmail label |
 | `core.py` | Shared filtering, ranking, state files and referral text |
+| `details.py` | Builds each opening's summary (tech stack, experience, role type, posted date) from its description |
 | `main.py` | CLI: fetch, filter, send Telegram alerts, update `seen_jobs.json` |
 | `app.py` | Streamlit dashboard |
 | `tests/test_jobwatch.py` | Offline tests (no network) |
@@ -74,12 +75,33 @@ that fails to send is not recorded as seen, so it is retried on the next run.
 streamlit run app.py
 ```
 
-- **Refresh now** fetches the sources and updates the list. It does not send
+- **Overview**: headline numbers and charts for matches by company, seniority,
+  most requested tech, experience asked, cities and posting age, plus the top picks.
+- **Openings**: cards or a table. Tap **Summary** on a card, or tap a table row,
+  to see the opening's job role, experience asked, posted date, location, tech
+  stack, a description excerpt, the job ID and a ready referral message.
+  **Export CSV** saves the filtered list.
+- **Referral studio**: pick an opening, type the referrer's name, adjust the
+  template for this session, and copy the message (with a LinkedIn 300-character check).
+  You can also download every filtered opening's message as one text file.
+- **Sources**: fetched and matched counts per source, errors from the last scan.
+- Sidebar filters: search, level, new/alerted, max experience asked, posting age,
+  company, tech stack, city, minimum title skill score.
+- **Refresh now** fetches the sources with live progress. It does not send
   alerts or change `seen_jobs.json`.
-- Filters: fresher-friendly only, minimum skill score, company, free-text search.
-- The referral box for any job has a copy button. Type the referrer's first
-  name to personalise it.
 - Until the first real fetch, the page shows fictional sample data, labelled as such.
+
+The theme is in `.streamlit/config.toml`.
+
+### Where the summary comes from
+
+The tech stack and experience are read from each posting's description with
+the patterns in `TECH_KEYWORDS` (config.py) and a "N years of experience"
+rule. Experience shows the lowest requirement found; if the description
+states none, the title decides ("Fresher / intern", "Entry level" or "Not
+stated"). Workday descriptions come from the same detail request used for
+locations; Amazon, Greenhouse and Lever include them in their job lists.
+Email-sourced jobs have no description.
 
 ## 5. Scheduled runs on GitHub (Phase 2)
 

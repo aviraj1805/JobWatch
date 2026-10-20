@@ -36,16 +36,18 @@ def is_multi_location(job):
     return bool(MULTI_LOC_RE.match(job["location"].strip()))
 
 
-def relevant(job):
-    if not title_ok(job):
-        return False
-    loc = job["location"]
+def location_ok(job):
     # "N Locations" is only left unresolved when the detail lookup failed; keep it.
-    if loc and not is_multi_location(job) and not LOC_RE.search(loc):
-        return False
-    if "30+" in job.get("posted", ""):  # Workday's "Posted 30+ Days Ago"
-        return False
-    return True
+    loc = job["location"]
+    return not loc or is_multi_location(job) or bool(LOC_RE.search(loc))
+
+
+def fresh(job):
+    return "30+" not in job.get("posted", "")  # Workday's "Posted 30+ Days Ago"
+
+
+def relevant(job):
+    return title_ok(job) and location_ok(job) and fresh(job)
 
 
 def fresher_rank(title):
@@ -71,16 +73,16 @@ def referral_text(job, referrer=None):
 
 
 def load_seen():
-    return set(json.loads(SEEN_FILE.read_text())) if SEEN_FILE.exists() else set()
+    return set(json.loads(SEEN_FILE.read_text(encoding="utf-8"))) if SEEN_FILE.exists() else set()
 
 
 def save_seen(seen):
-    SEEN_FILE.write_text(json.dumps(sorted(seen), indent=1))
+    SEEN_FILE.write_text(json.dumps(sorted(seen), indent=1), encoding="utf-8")
 
 
 def load_last_run():
     if LAST_RUN_FILE.exists():
-        return json.loads(LAST_RUN_FILE.read_text())
+        return json.loads(LAST_RUN_FILE.read_text(encoding="utf-8"))
     return None
 
 
@@ -91,5 +93,5 @@ def save_last_run(jobs, errors, counts):
         "errors": errors,
         "jobs": jobs,
     }
-    LAST_RUN_FILE.write_text(json.dumps(data, indent=1, ensure_ascii=False))
+    LAST_RUN_FILE.write_text(json.dumps(data, indent=1, ensure_ascii=False), encoding="utf-8")
     return data

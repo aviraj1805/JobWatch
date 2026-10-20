@@ -10,6 +10,7 @@ from unittest import mock
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 import core  # noqa: E402
+import details  # noqa: E402
 import fetchers  # noqa: E402
 import gmail_reader  # noqa: E402
 import main  # noqa: E402
@@ -188,30 +189,83 @@ class FetcherTests(unittest.TestCase):
             return FakeResponse(payload=detail)
 
         with mock.patch.object(fetchers.requests, "request", side_effect=fake_request):
-            loc = fetchers.workday_locations(
+            info = fetchers.fetch_workday_detail(
                 "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Bengaluru/AI-Engineer_JR1")
         self.assertEqual(urls, ["https://synechron.wd1.myworkdayjobs.com/wday/cxs/synechron/"
                                 "SynechronCareers/job/Bengaluru/AI-Engineer_JR1"])
-        self.assertEqual(loc, "Bengaluru - Bellandur; Pune - Hinjewadi (India)")
+        self.assertEqual(fetchers.workday_location_text(info),
+                         "Bengaluru - Bellandur; Pune - Hinjewadi (India)")
+
+    def test_amazon_details_from_search_results(self):
+        payload = {"jobs": [{"id_icims": "77", "title": "Data Engineer I", "normalized_location": "Pune, IND",
+                             "posted_date": "October 20, 2026", "job_path": "/en/jobs/77",
+                             "job_schedule_type": "full-time", "job_category": "Data Science",
+                             "description": "<p>Build pipelines with Spark.</p>",
+                             "basic_qualifications": "- 1+ years of experience with SQL and Python"}]}
+
+        def fake_request(method, url, **kw):
+            return FakeResponse(payload=payload)
+
+        with mock.patch.object(fetchers.requests, "request", side_effect=fake_request):
+            d = fetchers.fetch_amazon(["data"])[0]["details"]
+        self.assertEqual(d["experience"], "1+ years")
+        self.assertEqual(d["employment"], "Full time")
+        self.assertEqual(d["posted_date"], "2026-10-20")
+        for t in ("Python", "SQL", "Spark"):
+            self.assertIn(t, d["tech"])
 
 
-class LocationResolveTests(unittest.TestCase):
-    def test_only_matching_multi_location_workday_jobs_looked_up(self):
+WORKDAY_INFO = {"location": "Berlin", "country": {"descriptor": "Germany"}, "timeType": "Full time",
+                "startDate": "2026-10-15",
+                "jobDescription": "<p>Job Description: Work with Python &amp; C&#43;&#43;.</p>"}
+
+
+class WorkdayEnrichTests(unittest.TestCase):
+    def test_only_candidate_workday_jobs_looked_up(self):
         jobs = [job(location="3 Locations", source="workday"),
                 job(job_id="JR2", title="Sales Executive", location="3 Locations", source="workday"),
-                job(job_id="JR3", location="Pune", source="workday")]
-        with mock.patch.object(main, "workday_locations", return_value="Berlin (Germany)") as look:
-            main.resolve_locations(jobs)
-        look.assert_called_once_with(jobs[0]["url"])
-        self.assertEqual([j["location"] for j in jobs], ["Berlin (Germany)", "3 Locations", "Pune"])
+                job(job_id="JR3", location="Austin, Texas", source="workday"),
+                job(job_id="JR4", location="Pune", source="workday")]
+        with mock.patch.object(main, "fetch_workday_detail", return_value=WORKDAY_INFO) as look:
+            main.enrich_workday(jobs)
+        self.assertEqual([c.args[0] for c in look.call_args_list], [jobs[0]["url"], jobs[3]["url"]])
+        self.assertEqual([j["location"] for j in jobs],
+                         ["Berlin (Germany)", "3 Locations", "Austin, Texas", "Pune"])
+        self.assertEqual(jobs[3]["details"]["tech"], ["Python", "C/C++"])
+        self.assertEqual(jobs[3]["details"]["posted_date"], "2026-10-15")
+        self.assertNotIn("details", jobs[2])
 
     def test_failed_lookup_keeps_job(self):
         jobs = [job(location="3 Locations", source="workday")]
-        with mock.patch.object(main, "workday_locations",
+        with mock.patch.object(main, "fetch_workday_detail",
                                side_effect=fetchers.FetchError("robots")):
-            main.resolve_locations(jobs)
+            main.enrich_workday(jobs)
         self.assertEqual(jobs[0]["location"], "3 Locations")
         self.assertTrue(core.relevant(jobs[0]))
+
+
+class DetailsTests(unittest.TestCase):
+    def test_experience_takes_lowest_requirement_near_the_word(self):
+        text = "Requires 2-4 years of experience in SQL. Founded 150 years ago. 5+ years experience preferred."
+        self.assertEqual(details.experience(text, "Data Analyst"), "2–4 years")
+
+    def test_experience_falls_back_to_title(self):
+        self.assertEqual(details.experience("", "ML Intern"), "Fresher / intern")
+        self.assertEqual(details.experience("Freshers welcome", "Data Analyst"), "Fresher friendly")
+        self.assertEqual(details.experience("", "Data Analyst"), "Not stated")
+
+    def test_tech_stack_word_boundaries(self):
+        tech = details.tech_stack("Python, PySpark and Power BI. R&D team. Use R for stats. JavaScript.")
+        self.assertIn("Spark", tech)
+        self.assertIn("Power BI", tech)
+        self.assertIn("R", tech)
+        self.assertNotIn("Java", tech)
+
+    def test_html_entities_and_dates(self):
+        self.assertEqual(details.html_to_text("<p>C&#43;&#43; &amp;amp; SQL</p>"), "C++ & SQL")
+        self.assertEqual(details.parse_date("October 20, 2026"), "2026-10-20")
+        self.assertEqual(details.parse_date("2026-10-15T09:00:00Z"), "2026-10-15")
+        self.assertEqual(details.parse_date("Posted Today"), "")
 
 
 class GmailExtractionTests(unittest.TestCase):

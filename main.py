@@ -7,13 +7,15 @@ Usage:
 import html
 import os
 import sys
+from collections import Counter
 
 import requests
 
 import config
 import core
 from fetchers import (FetchError, fetch_amazon, fetch_greenhouse, fetch_lever,
-                      fetch_workday, workday_locations)
+                      fetch_workday, fetch_workday_detail, workday_details,
+                      workday_location_text)
 
 
 def send_telegram(text):
@@ -39,8 +41,11 @@ def send_telegram(text):
 def format_job(job):
     e = html.escape
     referral = core.referral_text(job)
+    d = job.get("details") or {}
+    facts = " | ".join(x for x in (", ".join(d.get("tech", [])[:6]), d.get("experience", "")) if x)
     return (f"<b>{e(job['company'])}</b> — {e(job['title'])}\n"
             f"ID: <code>{e(job['job_id'])}</code> | {e(job['location'])} | {e(job['posted'])}\n"
+            + (f"{e(facts)}\n" if facts else "") +
             f"{e(job['url'])}\n"
             f"Referral msg (tap to copy):\n<code>{e(referral)}</code>")
 
@@ -64,8 +69,11 @@ def notify(new_jobs, errors):
     return ok
 
 
-def collect():
-    """Run every enabled source. Returns (jobs, errors); one failing source never stops the rest."""
+def collect(report=None):
+    """Run every enabled source. Returns (jobs, errors); one failing source never stops the rest.
+
+    `report(name, count, error)` is called after each source, for live progress in the UI.
+    """
     jobs, errors = [], []
 
     def run(name, fn, *args):
@@ -73,9 +81,13 @@ def collect():
             found = fn(*args)
             print(f"{name}: {len(found)} postings fetched")
             jobs.extend(found)
+            if report:
+                report(name, len(found), None)
         except (FetchError, requests.RequestException, ValueError, KeyError) as ex:
             errors.append(f"{name}: {ex}")
             print(f"ERROR {name}: {ex}")
+            if report:
+                report(name, None, str(ex))
 
     for site in config.WORKDAY_SITES:
         if site["url"].startswith("http"):
@@ -89,22 +101,32 @@ def collect():
     if config.ENABLE_GMAIL:
         from gmail_reader import fetch_alert_jobs
         run("Gmail alerts", fetch_alert_jobs)
-    resolve_locations(jobs)
+    enrich_workday(jobs)
     return jobs, errors
 
 
-def resolve_locations(jobs):
-    """Replace Workday's "N Locations" with the real list, for titles that already match.
+def enrich_workday(jobs):
+    """Read the detail page of each Workday posting that could still match.
 
-    One extra request per such posting. If a lookup fails the posting keeps
-    "N Locations" and is still treated as relevant, so nothing is silently lost.
+    One request per posting gives both the real location list (the job list
+    only says "N Locations") and the description the summary is built from.
+    If a lookup fails the posting is kept as it was, so nothing is silently lost.
     """
     for j in jobs:
-        if j["source"] == "workday" and core.is_multi_location(j) and core.title_ok(j):
+        if j["source"] == "workday" and core.title_ok(j) and core.location_ok(j) and core.fresh(j):
             try:
-                j["location"] = workday_locations(j["url"])
+                info = fetch_workday_detail(j["url"])
             except (FetchError, requests.RequestException, ValueError, KeyError) as ex:
-                print(f"WARNING {j['company']} {j['job_id']}: location lookup failed: {ex}")
+                print(f"WARNING {j['company']} {j['job_id']}: detail lookup failed: {ex}")
+                continue
+            if core.is_multi_location(j):
+                j["location"] = workday_location_text(info)
+            j["details"] = workday_details(info, j["title"])
+
+
+def run_counts(all_jobs, matches, new_count):
+    return {"fetched": len(all_jobs), "relevant": len(matches), "new": new_count,
+            "by_company": dict(Counter(j["company"] for j in all_jobs))}
 
 
 def main():
@@ -119,11 +141,14 @@ def main():
     if dry_run:
         for j in new_jobs:
             print(f"- [{j['company']}] {j['title']} | {j['job_id']} | {j['location']} | {j['url']}")
+            d = j.get("details")
+            if d:
+                print(f"    {d['employment'] or '-'} | exp: {d['experience']} | "
+                      f"posted: {d['posted_date'] or j['posted']} | stack: {', '.join(d['tech']) or '-'}")
         return
 
     # Save what the UI shows, whether or not anything is sent.
-    core.save_last_run(matches, errors, {"fetched": len(all_jobs), "relevant": len(matches),
-                                         "new": len(new_jobs)})
+    core.save_last_run(matches, errors, run_counts(all_jobs, matches, len(new_jobs)))
     # Only remember jobs once the alert was delivered, so a Telegram failure
     # means the same jobs are retried on the next run.
     if notify(new_jobs, errors):

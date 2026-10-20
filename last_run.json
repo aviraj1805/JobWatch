@@ -1,0 +1,220 @@
+{
+ "ran_at": "2026-10-20T07:16+00:00",
+ "counts": {
+  "fetched": 950,
+  "relevant": 10,
+  "new": 10,
+  "by_company": {
+   "PTC": 147,
+   "CSG International": 15,
+   "Marsh McLennan": 313,
+   "Synechron": 126,
+   "Amazon": 349
+  }
+ },
+ "errors": [],
+ "jobs": [
+  {
+   "company": "PTC",
+   "job_id": "JR112163",
+   "title": "Associate Software Analyst",
+   "location": "Pune, India",
+   "posted": "Posted 5 Days Ago",
+   "url": "https://ptc.wd1.myworkdayjobs.com/en-US/PTC/job/Pune-India/Associate-Software-Analyst_JR112163",
+   "source": "workday",
+   "details": {
+    "tech": [
+     "C/C++",
+     "Agile"
+    ],
+    "experience": "Entry level",
+    "employment": "Full time",
+    "category": "",
+    "posted_date": "2026-10-15",
+    "summary": "Responsible for developing and implementing software programming applications for Creo Applications. The individual would be responsible for working and delivering products with quality. Your responsibility would include implementing new features for the Creo Manufacturing or other modules, attaining to customer and internal issues.\n Skills: Pro-active person, eager to learn and build innovative products. C and C++ programming and general knowledge of SDLC and Agile methodology. CAD background and experience of working with the tools and interfaces. The position is for Software Development (CAD/CAM) profile. The candidate must be having very good exposure to C/C++ programming. M.Tech…"
+   }
+  },
+  {
+   "company": "Synechron",
+   "job_id": "JR1044708-1",
+   "title": "AI Engineer",
+   "location": "Bengaluru - Bellandur (GTP); Bengaluru - Thanissandra (BCIT); Bengaluru - EC-2 Gateway campus; Bengaluru - Client Location (India)",
+   "posted": "Posted 11 Days Ago",
+   "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Bengaluru---Bellandur-GTP/AI-Engineer_JR1044708-1",
+   "source": "workday",
+   "details": {
+    "tech": [],
+    "experience": "Not stated",
+    "employment": "Full time",
+    "category": "",
+    "posted_date": "2026-10-09",
+    "summary": "Lead the development and implementation of projects using emerging technologies\n Mentor and guide team members to ensure the successful delivery of projects\n Identify and evaluate new technology solutions to improve business processes\n Collaborate with cross-functional teams to ensure alignment with the organization's overall strategy\n Stay up-to-date with the latest technological advancements and industry trends\n Skills: \n Strong expertise in emerging technologies such as blockchain, IoT, AI, etc.\n Strong technical knowledge of software development lifecycle\n Excellent problem-solving and critical thinking skills\n Good understanding of software architecture and design patterns\n Ability to…"
+   }
+  },
+  {
+   "company": "PTC",
+   "job_id": "JR112297",
+   "title": "Security Analyst - Corporate/Global Security",
+   "location": "Pune, India",
+   "posted": "Posted 13 Days Ago",
+   "url": "https://ptc.wd1.myworkdayjobs.com/en-US/PTC/job/Pune-India/Security-Analyst---Corporate-Global-Security_JR112297",
+   "source": "workday",
+   "details": {
+    "tech": [],
+    "experience": "1–3 years",
+    "employment": "Full time",
+    "category": "",
+    "posted_date": "2026-10-07",
+    "summary": "Supports regional Manager, Global Security in all global security strategic focus areas to including Physical & Technical Security, Travel Risk Management, and Crisis Response & Resiliency. \n Provides security office administrative duties as needed, to support PTC employees at the dedicated regional HUB. \n Performs daily operations in the enterprise video and access control software, to include badging & ID, occupancy reporting and video review. \n Responsible for security technology health and maintenance processes and procedures. \n Communicates with PTC managers on office space and restricted space access requests and access rosters. \n Monitors  regional global security mailbox and service…"
+   }
+  },
+  {
+   "company": "PTC",
+   "job_id": "JR112833",
+   "title": "IT Generalist Analyst - Salesforce Admin",
+   "location": "Pune, India",
+   "posted": "Posted 11 Days Ago",
+   "url": "https://ptc.wd1.myworkdayjobs.com/en-US/PTC/job/Pune-India/IT-Generalist-Analyst---Salesforce-Admin_JR112833",
+   "source": "workday",
+   "details": {
+    "tech": [
+     "Salesforce",
+     "Agile"
+    ],
+    "experience": "3+ years",
+    "employment": "Full time",
+    "category": "",
+    "posted_date": "2026-10-09",
+    "summary": "will be responsible for application administration, production support, incident management, user support, monitoring, and continuous improvement of Salesforce solutions. The ideal candidate will work closely with business users, development teams, and stakeholders to ensure stable, secure, and efficient operation of Salesforce environments.\n Key Responsibilities \n Salesforce Administration & Production Support \n Administer, configure, and maintain Salesforce Sales Cloud and Service Cloud environments.\n Manage users, profiles, permission sets, roles, queues, workflows, validation rules, reports, dashboards, and case management processes.\n Troubleshoot and resolve production issues requiring…"
+   }
+  },
+  {
+   "company": "PTC",
+   "job_id": "JR112829",
+   "title": "Analyst Information Technology - (VMware , Azure/AWS, OCP)",
+   "location": "Pune, India",
+   "posted": "Posted 13 Days Ago",
+   "url": "https://ptc.wd1.myworkdayjobs.com/en-US/PTC/job/Pune-India/Analyst-Information-Technology----VMware---Azure-AWS--OCP-_JR112829",
+   "source": "workday",
+   "details": {
+    "tech": [
+     "AWS",
+     "Azure",
+     "Docker / K8s",
+     "Linux",
+     "VMware"
+    ],
+    "experience": "3–5 years",
+    "employment": "Full time",
+    "category": "",
+    "posted_date": "2026-10-07",
+    "summary": "covers day-to-day administration, monitoring, troubleshooting, VM lifecycle management, patching, security remediation and script-based automation, working within established change and incident management processes. This is a hands-on role for someone with around four years of infrastructure experience who wants to deepen their skills in virtualization, automation and hybrid cloud.\n Role Details\n ·       Experience: 3–5 years (approximately 4 years) in infrastructure or systems administration.\n ·       Department: IT Infrastructure Operations.\n ·       Reports To: Infrastructure Operations Manager.\n ·       Employment Type: Full-time.\n Key Responsibilities\n ·       Administer VMware…"
+   }
+  },
+  {
+   "company": "Synechron",
+   "job_id": "JR1043912-1",
+   "title": "Data Engineer – PySpark, Hadoop, Hive & Big Data Pipeline Development",
+   "location": "Chennai - Taramani (Ascendas); Bengaluru - Bellandur (GTP) (India)",
+   "posted": "Posted 13 Days Ago",
+   "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Chennai---Taramani-Ascendas/Pyspark-Data-Engineer_JR1043912-1",
+   "source": "workday",
+   "details": {
+    "tech": [
+     "Python",
+     "SQL",
+     "Scala",
+     "Spark",
+     "Hadoop / Hive",
+     "ETL",
+     "Agile"
+    ],
+    "experience": "6–10 years",
+    "employment": "Full time",
+    "category": "",
+    "posted_date": "2026-10-07",
+    "summary": "is responsible for building reliable data ingestion and transformation processes, working with large-scale datasets, and supporting distributed data-processing environments. The Data Engineer will contribute to business objectives by improving data availability, quality, integrity, processing efficiency, and operational reliability.\n The successful candidate will collaborate with cross-functional teams to deliver data-driven solutions that support business and technology requirements.\n Software Requirements \n Required Software Skills \n PySpark: Strong hands-on experience developing, optimizing, and maintaining production-grade data pipelines.\n Cloudera Data Platform (CDP): Strong practical…"
+   }
+  },
+  {
+   "company": "Synechron",
+   "job_id": "JR1044886",
+   "title": "Ab Initio Developer – Data Integration, Cloud Technologies & Agile Delivery",
+   "location": "Bengaluru - Bellandur (GTP); Hyderabad  Eco Park (India)",
+   "posted": "Posted 6 Days Ago",
+   "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Bengaluru---Bellandur-GTP/Ab-Initio-Developer---Data-Integration--Cloud-Technologies---Agile-Delivery_JR1044886",
+   "source": "workday",
+   "details": {
+    "tech": [
+     "Python",
+     "Java",
+     "JavaScript",
+     "Agile"
+    ],
+    "experience": "8–10 years",
+    "employment": "Full time",
+    "category": "",
+    "posted_date": "2026-10-14",
+    "summary": "involves applying knowledge of software systems, data structures, database management, cloud infrastructure, software architecture, and Agile delivery practices to support technology initiatives.\n The successful candidate will lead and manage cross-functional technology teams, translate business requirements into technology solutions, guide technical implementation, evaluate emerging technologies, and support the delivery of scalable and maintainable data-oriented solutions. The role contributes to business objectives by improving technology delivery, supporting informed technical decisions, increasing operational efficiency, and aligning technology initiatives with organizational…"
+   }
+  },
+  {
+   "company": "Synechron",
+   "job_id": "JR1040007-1",
+   "title": "HRIS Analyst – Workday Absence & HCM",
+   "location": "Pune - Hinjewadi (Ascendas); Bengaluru - EC-2 Gateway campus; Gurugram; Chennai - Taramani (Ascendas); Mumbai (India)",
+   "posted": "Posted 13 Days Ago",
+   "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Pune---Hinjewadi-Ascendas/HRIS-Analyst---Workday-Absence---HCM_JR1040007-1",
+   "source": "workday",
+   "details": {
+    "tech": [],
+    "experience": "2+ years",
+    "employment": "Full time",
+    "category": "",
+    "posted_date": "2026-10-07",
+    "summary": "The HRIS Analyst supports the configuration, maintenance, and optimization of Workday Absence Management and core HCM. This role partners closely with HR, Legal, and internal application teams to ensure absence plans and employee data are accurately maintained, compliant, and aligned with company policy. \n Key Responsibilities \n Configure and maintain absence plans, accrual policies, and time off types in Workday \n Support core HCM functions including org management, job and position data, and business process configuration \n Troubleshoot and resolve absence and HCM-related system issues and employee/manager inquiries \n Partner with HR and Legal to translate policy changes into system…"
+   }
+  },
+  {
+   "company": "Synechron",
+   "job_id": "JR1045275-1",
+   "title": "VisionPlus Technical Business Analyst",
+   "location": "Mumbai; Gurugram (India)",
+   "posted": "Posted 5 Days Ago",
+   "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Mumbai/Technical-Business-Analyst---VisionPLUS--Cards---Payments--SQL_JR1045275-1",
+   "source": "workday",
+   "details": {
+    "tech": [
+     "SQL",
+     "Agile"
+    ],
+    "experience": "10+ years",
+    "employment": "Full time",
+    "category": "",
+    "posted_date": "2026-10-15",
+    "summary": "requires 10+ years of Business Analyst experience , with hands-on expertise in VisionPLUS applications and a strong understanding of the cards and payments domain. The successful candidate will gather and translate business requirements into functional solutions, support VisionPLUS and related payment systems, and coordinate delivery across business, development, testing, UAT, and production support teams. This role contributes to business objectives by enabling accurate requirements, effective system enhancements, reliable integrations, and timely delivery of payment-related solutions.\n Software Requirements (Required and Preferred) \n Required \n VisionPLUS: Hands-on experience with CMS,…"
+   }
+  },
+  {
+   "company": "Synechron",
+   "job_id": "JR1045372",
+   "title": "Business Analyst -  Payment Clearing Systems",
+   "location": "Pune - Client Location",
+   "posted": "Posted 4 Days Ago",
+   "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Pune---Client-Location/Lead-BA_JR1045372",
+   "source": "workday",
+   "details": {
+    "tech": [
+     "SQL",
+     "NoSQL",
+     "Agile"
+    ],
+    "experience": "5–10 years",
+    "employment": "Full time",
+    "category": "",
+    "posted_date": "2026-10-16",
+    "summary": "Requirements Gathering:  Translate business goals into functional specs and user stories for payment processing engines. \n Global Rail Integration:  Configure rules for domestic and cross-border rails, including ACH, Fedwire, CHIPS, SEPA (Credit Transfer/Instant), and SWIFT (MT and MX/ISO 20022). \n Clearing and Settlement:  Design end-to-end clearing workflows, exception handling, returns, rejections, and liquidity management. \n Data Mapping:  Build data-mapping documents for legacy formats and modern ISO 20022 XML standards. \n S​ YNECHRON’S DIVERSITY & INCLUSION STATEMENT \n Diversity & Inclusion are fundamental to our culture, and Synechron is proud to be an equal opportunity workplace and…"
+   }
+  }
+ ]
+}

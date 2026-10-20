@@ -1,0 +1,85 @@
+{
+ "ran_at": "sample",
+ "counts": {
+  "fetched": 41,
+  "relevant": 8,
+  "new": 4
+ },
+ "errors": [
+  "Sample Co Z: example error shown in the Source problems box"
+ ],
+ "jobs": [
+  {
+   "company": "Sample Co A",
+   "title": "Data Science Intern",
+   "job_id": "SA-101",
+   "location": "Pune, Maharashtra, India",
+   "posted": "Posted 2 Days Ago",
+   "url": "https://example.com/jobs/SA-101",
+   "source": "sample"
+  },
+  {
+   "company": "Sample Co B",
+   "title": "Machine Learning Intern",
+   "job_id": "SB-212",
+   "location": "Pune, India (Hybrid)",
+   "posted": "Posted Today",
+   "url": "https://example.com/jobs/SB-212",
+   "source": "sample"
+  },
+  {
+   "company": "Sample Co C",
+   "title": "Python ML Trainee",
+   "job_id": "SC-330",
+   "location": "Pune",
+   "posted": "Posted 3 Days Ago",
+   "url": "https://example.com/jobs/SC-330",
+   "source": "sample"
+  },
+  {
+   "company": "Sample Co A",
+   "title": "Junior Data Analyst",
+   "job_id": "SA-102",
+   "location": "Pune, Maharashtra, India",
+   "posted": "Posted Yesterday",
+   "url": "https://example.com/jobs/SA-102",
+   "source": "sample"
+  },
+  {
+   "company": "Sample Co D",
+   "title": "Data Analyst (Graduate)",
+   "job_id": "SD-07",
+   "location": "Remote, India",
+   "posted": "Posted 4 Days Ago",
+   "url": "https://example.com/jobs/SD-07",
+   "source": "sample"
+  },
+  {
+   "company": "Sample Co E",
+   "title": "Generative AI Associate",
+   "job_id": "SE-55",
+   "location": "Pune",
+   "posted": "Posted 1 Day Ago",
+   "url": "https://example.com/jobs/SE-55",
+   "source": "sample"
+  },
+  {
+   "company": "Sample Co B",
+   "title": "Data Scientist",
+   "job_id": "SB-301",
+   "location": "Pune, India",
+   "posted": "Posted 6 Days Ago",
+   "url": "https://example.com/jobs/SB-301",
+   "source": "sample"
+  },
+  {
+   "company": "Sample Co F",
+   "title": "AI Research Intern",
+   "job_id": "SF-18",
+   "location": "Pune (Hybrid)",
+   "posted": "Posted Today",
+   "url": "https://example.com/jobs/SF-18",
+   "source": "sample"
+  }
+ ]
+}

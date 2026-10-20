@@ -1,0 +1,47 @@
+name: jobwatch
+
+on:
+  schedule:
+    # Twice a day, in IST: 09:00 and 19:30 (cron runs in UTC).
+    - cron: "30 3 * * *"
+    - cron: "0 14 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write  # needed to commit seen_jobs.json and last_run.json back
+
+concurrency:
+  group: jobwatch
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Fetch and alert
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python main.py
+
+      - name: Save state
+        run: |
+          git config user.name "jobwatch-bot"
+          git config user.email "jobwatch-bot@users.noreply.github.com"
+          git add seen_jobs.json last_run.json
+          if git diff --cached --quiet; then
+            echo "No state changes."
+          else
+            git commit -m "jobwatch: update state"
+            git push
+          fi

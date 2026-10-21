@@ -1,15 +1,15 @@
 {
- "ran_at": "2026-10-21T08:47+00:00",
+ "ran_at": "2026-10-21T18:22+00:00",
  "counts": {
-  "fetched": 927,
-  "relevant": 8,
-  "new": 0,
+  "fetched": 929,
+  "relevant": 11,
+  "new": 3,
   "by_company": {
-   "PTC": 147,
+   "PTC": 145,
    "CSG International": 17,
-   "Marsh McLennan": 315,
-   "Synechron": 111,
-   "Amazon": 337
+   "Marsh McLennan": 319,
+   "Synechron": 117,
+   "Amazon": 331
   }
  },
  "errors": [],
@@ -36,19 +36,125 @@
   },
   {
    "company": "Synechron",
+   "job_id": "JR1042908-1",
+   "title": "GenAI Engineer – LLM, RAG, Agentic AI & MLOps",
+   "location": "Bengaluru - Bellandur (GTP); Pune - Client Location (India)",
+   "posted": "Posted Today",
+   "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Bengaluru---Bellandur-GTP/GenAI-Engineering_JR1042908-1",
+   "source": "workday",
+   "details": {
+    "tech": [
+     "Python",
+     "Pandas",
+     "NumPy",
+     "TensorFlow",
+     "PyTorch",
+     "Machine Learning",
+     "Deep Learning",
+     "GenAI / LLM",
+     "ETL",
+     "AWS",
+     "Azure",
+     "GCP",
+     "Docker / K8s"
+    ],
+    "experience": "3+ years",
+    "employment": "Full time",
+    "category": "",
+    "posted_date": "2026-10-21",
+    "summary": "Lead the design, training, and deployment of large language models and multimodal agents supporting enterprise automation and insights\n Develop scalable AI pipelines supporting real-time inference, retraining, and model monitoring in cloud environments\n Collaborate with data scientists, platform engineers, and business stakeholders to translate use cases into operational AI systems supporting automation and decision support\n Support prompt engineering, model evaluation, bias detection, and performance tuning for operational reliability and fairness\n Automate deployment, versioning, and monitoring workflows supporting MLOps and responsible AI standards\n Conduct model validation,…"
+   }
+  },
+  {
+   "company": "Synechron",
+   "job_id": "JR1044951",
+   "title": "AWS Platform Engineer – Terraform | Kubernetes | AI/ML Cloud Services",
+   "location": "Bengaluru - Thanissandra (BCIT); Bengaluru - Client Location (India)",
+   "posted": "Posted Today",
+   "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Bengaluru---Thanissandra-BCIT/Sr-Platform-Engineer--AWS-Cloud-Engineer-_JR1044951",
+   "source": "workday",
+   "details": {
+    "tech": [
+     "Python",
+     "Machine Learning",
+     "AWS",
+     "Docker / K8s",
+     "Git"
+    ],
+    "experience": "8+ years",
+    "employment": "Full time",
+    "category": "",
+    "posted_date": "2026-10-21",
+    "summary": "will design, migrate, secure, and operate scalable AWS platforms.\n Software Requirements\n Required\n AWS core services: EC2, Lambda, S3, EBS, VPC, Route 53, RDS/Aurora, DynamoDB, IAM, and CloudWatch\n Terraform, CloudFormation, or AWS CDK\n Python or another modern programming language\n Docker and Kubernetes, ECS, Fargate, or EKS\n Git and CI/CD tools such as TeamCity or GitHub Actions\n AWS AI services, including Bedrock, SageMaker, Textract, and Amazon Q\n Current AWS Associate-level or higher certification\n Preferred\n MCP and AI agentic workflows\n Advanced AWS certification\n Policy-as-code and automated compliance\n GitOps and cloud cost-optimization tools\n Overall Responsibilities\n Design,…"
+   }
+  },
+  {
+   "company": "Synechron",
+   "job_id": "JR1037136-1",
+   "title": "GCP Big Data Engineer – Python, Spark, Dataflow, BigQuery & ETL/ELT",
+   "location": "Gurugram; Bengaluru - Bellandur (GTP) (India)",
+   "posted": "Posted Today",
+   "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Gurugram/Sr-Associate-Data-Engineer_JR1037136-1",
+   "source": "workday",
+   "details": {
+    "tech": [
+     "Python",
+     "SQL",
+     "Java",
+     "TensorFlow",
+     "PyTorch",
+     "Machine Learning",
+     "Spark",
+     "Hadoop / Hive",
+     "Airflow",
+     "ETL",
+     "AWS",
+     "Azure",
+     "GCP",
+     "Docker / K8s",
+     "Git",
+     "Linux",
+     "NoSQL",
+     "Agile"
+    ],
+    "experience": "5+ years",
+    "employment": "Full time",
+    "category": "",
+    "posted_date": "2026-10-21",
+    "summary": "Design, develop, and maintain scalable, resilient data pipelines on GCP to support enterprise analytics and reporting solutions\n Collaborate with business stakeholders, data scientists, and analytics teams to understand data requirements and implement optimized data workflows\n Implement and enforce data quality, security, and governance standards across platforms\n Optimize data ingestion, transformation, and processing workflows to ensure high performance and cost efficiency\n Perform data profiling, troubleshooting, and resolution of pipeline issues to ensure operational reliability\n Stay current with emerging data engineering best practices, tools, and industry trends, leading continuous…"
+   }
+  },
+  {
+   "company": "Synechron",
    "job_id": "JR1044708-1",
    "title": "AI Engineer",
    "location": "Bengaluru - Bellandur (GTP); Bengaluru - Thanissandra (BCIT); Bengaluru - EC-2 Gateway campus; Bengaluru - Client Location (India)",
-   "posted": "Posted 12 Days Ago",
+   "posted": "Posted Today",
    "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Bengaluru---Bellandur-GTP/AI-Engineer_JR1044708-1",
    "source": "workday",
    "details": {
-    "tech": [],
-    "experience": "Not stated",
+    "tech": [
+     "Python",
+     "SQL",
+     "Java",
+     "JavaScript",
+     "scikit-learn",
+     "TensorFlow",
+     "PyTorch",
+     "Machine Learning",
+     "GenAI / LLM",
+     "ETL",
+     "Docker / K8s",
+     "Git",
+     "NoSQL",
+     "REST APIs",
+     "Agile"
+    ],
+    "experience": "4+ years",
     "employment": "Full time",
     "category": "",
-    "posted_date": "2026-10-09",
-    "summary": "Lead the development and implementation of projects using emerging technologies\n Mentor and guide team members to ensure the successful delivery of projects\n Identify and evaluate new technology solutions to improve business processes\n Collaborate with cross-functional teams to ensure alignment with the organization's overall strategy\n Stay up-to-date with the latest technological advancements and industry trends\n Skills: \n Strong expertise in emerging technologies such as blockchain, IoT, AI, etc.\n Strong technical knowledge of software development lifecycle\n Excellent problem-solving and critical thinking skills\n Good understanding of software architecture and design patterns\n Ability to…"
+    "posted_date": "2026-10-21",
+    "summary": "will convert business needs into practical technology solutions, guide engineering teams, and support innovation through secure, scalable, and maintainable systems.\n Software Requirements\n Required\n Python or another production programming language: 4+ years.\n Experience with AI/ML frameworks such as TensorFlow, PyTorch, Scikit-learn, or equivalent.\n SQL and experience with structured and unstructured data.\n Git and software development lifecycle practices.\n REST APIs, cloud services, and automated testing.\n Experience with solution design, system integration, and technical documentation.\n Preferred\n Experience with generative AI, large language models, prompt engineering, or…"
    }
   },
   {
@@ -135,6 +241,29 @@
   },
   {
    "company": "Synechron",
+   "job_id": "JR1045372",
+   "title": "Business Analyst",
+   "location": "Pune - Client Location",
+   "posted": "Posted Today",
+   "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Pune---Client-Location/Lead-BA_JR1045372",
+   "source": "workday",
+   "details": {
+    "tech": [
+     "Python",
+     "SQL",
+     "NoSQL",
+     "REST APIs",
+     "Agile"
+    ],
+    "experience": "5–10 years",
+    "employment": "Full time",
+    "category": "",
+    "posted_date": "2026-10-21",
+    "summary": "will translate business requirements into payment flows, functional specifications, user stories, data mappings, and clearing workflows. The position will contribute to accurate, compliant, and efficient processing across domestic, cross-border, wire, ACH, real-time, instant, and SWIFT payment rails.\n Software Requirements\n Required\n JIRA and Confluence: Experience supporting Agile/Scrum delivery and maintaining requirements documentation.\n Postman: Experience testing and validating payment APIs.\n SQL: Ability to query and analyze payment, transaction, and reconciliation data.\n ISO 20022: Practical experience with XML message structures, mapping, validation, and compliance.\n API and message…"
+   }
+  },
+  {
+   "company": "Synechron",
    "job_id": "JR1045275-1",
    "title": "VisionPlus Technical Business Analyst",
    "location": "Mumbai; Gurugram (India)",
@@ -151,27 +280,6 @@
     "category": "",
     "posted_date": "2026-10-15",
     "summary": "requires 10+ years of Business Analyst experience , with hands-on expertise in VisionPLUS applications and a strong understanding of the cards and payments domain. The successful candidate will gather and translate business requirements into functional solutions, support VisionPLUS and related payment systems, and coordinate delivery across business, development, testing, UAT, and production support teams. This role contributes to business objectives by enabling accurate requirements, effective system enhancements, reliable integrations, and timely delivery of payment-related solutions.\n Software Requirements (Required and Preferred) \n Required \n VisionPLUS: Hands-on experience with CMS,…"
-   }
-  },
-  {
-   "company": "Synechron",
-   "job_id": "JR1045372",
-   "title": "Business Analyst -  Payment Clearing Systems",
-   "location": "Pune - Client Location",
-   "posted": "Posted 5 Days Ago",
-   "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Pune---Client-Location/Lead-BA_JR1045372",
-   "source": "workday",
-   "details": {
-    "tech": [
-     "SQL",
-     "NoSQL",
-     "Agile"
-    ],
-    "experience": "5–10 years",
-    "employment": "Full time",
-    "category": "",
-    "posted_date": "2026-10-16",
-    "summary": "Requirements Gathering:  Translate business goals into functional specs and user stories for payment processing engines. \n Global Rail Integration:  Configure rules for domestic and cross-border rails, including ACH, Fedwire, CHIPS, SEPA (Credit Transfer/Instant), and SWIFT (MT and MX/ISO 20022). \n Clearing and Settlement:  Design end-to-end clearing workflows, exception handling, returns, rejections, and liquidity management. \n Data Mapping:  Build data-mapping documents for legacy formats and modern ISO 20022 XML standards. \n S​ YNECHRON’S DIVERSITY & INCLUSION STATEMENT \n Diversity & Inclusion are fundamental to our culture, and Synechron is proud to be an equal opportunity workplace and…"
    }
   }
  ]

@@ -1,15 +1,15 @@
 {
- "ran_at": "2026-10-22T08:50+00:00",
+ "ran_at": "2026-10-22T18:17+00:00",
  "counts": {
-  "fetched": 934,
-  "relevant": 13,
-  "new": 2,
+  "fetched": 929,
+  "relevant": 12,
+  "new": 0,
   "by_company": {
-   "PTC": 145,
-   "CSG International": 17,
-   "Marsh McLennan": 318,
+   "PTC": 143,
+   "CSG International": 15,
+   "Marsh McLennan": 316,
    "Synechron": 118,
-   "Amazon": 336
+   "Amazon": 337
   }
  },
  "errors": [],
@@ -307,23 +307,6 @@
     "category": "",
     "posted_date": "2026-10-15",
     "summary": "requires 10+ years of Business Analyst experience , with hands-on expertise in VisionPLUS applications and a strong understanding of the cards and payments domain. The successful candidate will gather and translate business requirements into functional solutions, support VisionPLUS and related payment systems, and coordinate delivery across business, development, testing, UAT, and production support teams. This role contributes to business objectives by enabling accurate requirements, effective system enhancements, reliable integrations, and timely delivery of payment-related solutions.\n Software Requirements (Required and Preferred) \n Required \n VisionPLUS: Hands-on experience with CMS,…"
-   }
-  },
-  {
-   "company": "Amazon",
-   "job_id": "10584982",
-   "title": "Advertising Ops Analyst, Amazon Ads",
-   "location": "Mumbai, Maharashtra, IND",
-   "posted": "October 22, 2026",
-   "url": "https://www.amazon.jobs/en/jobs/10584982/advertising-ops-analyst-amazon-ads",
-   "source": "amazon",
-   "details": {
-    "tech": [],
-    "experience": "1+ years",
-    "employment": "Full time",
-    "category": "Sales, Advertising, & Account Management",
-    "posted_date": "2026-10-22",
-    "summary": "Campaign Setup & Trafficking\n- Receive IO/deal briefs from CSM and translate them into accurate campaign setups on ADSP and Rodeo\n- Create and configure line items — targeting parameters, flight dates, budgets, frequency caps, dayparting, and deal IDs — as per the approved deal terms\n- Set up programmatic guaranteed (PG) and direct-sold deals with precision across PV, AMXP, and 3P Video inventory\n- Ensure correct mapping of advertiser, brand, and campaign hierarchy within the platform\nCreative Upload & QA\n- Upload 1P hosted video creatives and third-party tracking pixels/tags on Rodeo\n- Validate creatives against platform specifications (format, resolution, duration, file size) and ad…"
    }
   }
  ]

@@ -1,15 +1,15 @@
 {
- "ran_at": "2026-10-21T18:22+00:00",
+ "ran_at": "2026-10-22T08:50+00:00",
  "counts": {
-  "fetched": 929,
-  "relevant": 11,
-  "new": 3,
+  "fetched": 934,
+  "relevant": 13,
+  "new": 2,
   "by_company": {
    "PTC": 145,
    "CSG International": 17,
-   "Marsh McLennan": 319,
-   "Synechron": 117,
-   "Amazon": 331
+   "Marsh McLennan": 318,
+   "Synechron": 118,
+   "Amazon": 336
   }
  },
  "errors": [],
@@ -19,7 +19,7 @@
    "job_id": "JR112163",
    "title": "Associate Software Analyst",
    "location": "Pune, India",
-   "posted": "Posted 6 Days Ago",
+   "posted": "Posted 7 Days Ago",
    "url": "https://ptc.wd1.myworkdayjobs.com/en-US/PTC/job/Pune-India/Associate-Software-Analyst_JR112163",
    "source": "workday",
    "details": {
@@ -39,7 +39,7 @@
    "job_id": "JR1042908-1",
    "title": "GenAI Engineer – LLM, RAG, Agentic AI & MLOps",
    "location": "Bengaluru - Bellandur (GTP); Pune - Client Location (India)",
-   "posted": "Posted Today",
+   "posted": "Posted Yesterday",
    "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Bengaluru---Bellandur-GTP/GenAI-Engineering_JR1042908-1",
    "source": "workday",
    "details": {
@@ -70,7 +70,7 @@
    "job_id": "JR1044951",
    "title": "AWS Platform Engineer – Terraform | Kubernetes | AI/ML Cloud Services",
    "location": "Bengaluru - Thanissandra (BCIT); Bengaluru - Client Location (India)",
-   "posted": "Posted Today",
+   "posted": "Posted Yesterday",
    "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Bengaluru---Thanissandra-BCIT/Sr-Platform-Engineer--AWS-Cloud-Engineer-_JR1044951",
    "source": "workday",
    "details": {
@@ -93,7 +93,7 @@
    "job_id": "JR1037136-1",
    "title": "GCP Big Data Engineer – Python, Spark, Dataflow, BigQuery & ETL/ELT",
    "location": "Gurugram; Bengaluru - Bellandur (GTP) (India)",
-   "posted": "Posted Today",
+   "posted": "Posted Yesterday",
    "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Gurugram/Sr-Associate-Data-Engineer_JR1037136-1",
    "source": "workday",
    "details": {
@@ -129,7 +129,7 @@
    "job_id": "JR1044708-1",
    "title": "AI Engineer",
    "location": "Bengaluru - Bellandur (GTP); Bengaluru - Thanissandra (BCIT); Bengaluru - EC-2 Gateway campus; Bengaluru - Client Location (India)",
-   "posted": "Posted Today",
+   "posted": "Posted Yesterday",
    "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Bengaluru---Bellandur-GTP/AI-Engineer_JR1044708-1",
    "source": "workday",
    "details": {
@@ -162,7 +162,7 @@
    "job_id": "JR112297",
    "title": "Security Analyst - Corporate/Global Security",
    "location": "Pune, India",
-   "posted": "Posted 14 Days Ago",
+   "posted": "Posted 15 Days Ago",
    "url": "https://ptc.wd1.myworkdayjobs.com/en-US/PTC/job/Pune-India/Security-Analyst---Corporate-Global-Security_JR112297",
    "source": "workday",
    "details": {
@@ -179,7 +179,7 @@
    "job_id": "JR112833",
    "title": "IT Generalist Analyst - Salesforce Admin",
    "location": "Pune, India",
-   "posted": "Posted 12 Days Ago",
+   "posted": "Posted 13 Days Ago",
    "url": "https://ptc.wd1.myworkdayjobs.com/en-US/PTC/job/Pune-India/IT-Generalist-Analyst---Salesforce-Admin_JR112833",
    "source": "workday",
    "details": {
@@ -199,7 +199,7 @@
    "job_id": "JR112829",
    "title": "Analyst Information Technology - (VMware , Azure/AWS, OCP)",
    "location": "Pune, India",
-   "posted": "Posted 14 Days Ago",
+   "posted": "Posted 15 Days Ago",
    "url": "https://ptc.wd1.myworkdayjobs.com/en-US/PTC/job/Pune-India/Analyst-Information-Technology----VMware---Azure-AWS--OCP-_JR112829",
    "source": "workday",
    "details": {
@@ -219,10 +219,37 @@
   },
   {
    "company": "Synechron",
+   "job_id": "JR1044949-1",
+   "title": "Azure Databricks Data Engineer – Apache Spark & Azure Data Factory",
+   "location": "Pune - Kharadi (EON-II)",
+   "posted": "Posted Today",
+   "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Pune---Kharadi-EON-II/Sr-Data-Engineer_JR1044949-1",
+   "source": "workday",
+   "details": {
+    "tech": [
+     "Python",
+     "SQL",
+     "Spark",
+     "ETL",
+     "Databricks",
+     "Azure",
+     "Git",
+     "Linux",
+     "Agile"
+    ],
+    "experience": "3+ years",
+    "employment": "Full time",
+    "category": "",
+    "posted_date": "2026-10-22",
+    "summary": "will deliver reliable, secure, and cost-efficient data pipelines that support enterprise business objectives.\n Software Requirements \n Required: \n Azure, Azure Databricks, Azure Data Factory, and Azure Data Lake\n Azure Key Vault, service principals, and Azure CLI\n Apache Spark, PySpark, Python, T-SQL, and Linux/Shell scripting\n Databricks Jobs, Workflows, Azure Pipelines, and CI/CD\n Git and cloud-based data engineering tools\n Preferred: \n Agile delivery experience\n PL/SQL\n Data-quality, monitoring, and infrastructure automation tools\n Overall Responsibilities \n Design, develop, and maintain ETL/ELT pipelines using Spark and Databricks.\n Build batch and streaming data solutions.\n Develop…"
+   }
+  },
+  {
+   "company": "Synechron",
    "job_id": "JR1044886",
    "title": "Ab Initio Developer – Data Integration, Cloud Technologies & Agile Delivery",
    "location": "Bengaluru - Bellandur (GTP); Hyderabad  Eco Park (India)",
-   "posted": "Posted 7 Days Ago",
+   "posted": "Posted 8 Days Ago",
    "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Bengaluru---Bellandur-GTP/Ab-Initio-Developer---Data-Integration--Cloud-Technologies---Agile-Delivery_JR1044886",
    "source": "workday",
    "details": {
@@ -244,7 +271,7 @@
    "job_id": "JR1045372",
    "title": "Business Analyst",
    "location": "Pune - Client Location",
-   "posted": "Posted Today",
+   "posted": "Posted Yesterday",
    "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Pune---Client-Location/Lead-BA_JR1045372",
    "source": "workday",
    "details": {
@@ -267,7 +294,7 @@
    "job_id": "JR1045275-1",
    "title": "VisionPlus Technical Business Analyst",
    "location": "Mumbai; Gurugram (India)",
-   "posted": "Posted 6 Days Ago",
+   "posted": "Posted 7 Days Ago",
    "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Mumbai/Technical-Business-Analyst---VisionPLUS--Cards---Payments--SQL_JR1045275-1",
    "source": "workday",
    "details": {
@@ -280,6 +307,23 @@
     "category": "",
     "posted_date": "2026-10-15",
     "summary": "requires 10+ years of Business Analyst experience , with hands-on expertise in VisionPLUS applications and a strong understanding of the cards and payments domain. The successful candidate will gather and translate business requirements into functional solutions, support VisionPLUS and related payment systems, and coordinate delivery across business, development, testing, UAT, and production support teams. This role contributes to business objectives by enabling accurate requirements, effective system enhancements, reliable integrations, and timely delivery of payment-related solutions.\n Software Requirements (Required and Preferred) \n Required \n VisionPLUS: Hands-on experience with CMS,…"
+   }
+  },
+  {
+   "company": "Amazon",
+   "job_id": "10584982",
+   "title": "Advertising Ops Analyst, Amazon Ads",
+   "location": "Mumbai, Maharashtra, IND",
+   "posted": "October 22, 2026",
+   "url": "https://www.amazon.jobs/en/jobs/10584982/advertising-ops-analyst-amazon-ads",
+   "source": "amazon",
+   "details": {
+    "tech": [],
+    "experience": "1+ years",
+    "employment": "Full time",
+    "category": "Sales, Advertising, & Account Management",
+    "posted_date": "2026-10-22",
+    "summary": "Campaign Setup & Trafficking\n- Receive IO/deal briefs from CSM and translate them into accurate campaign setups on ADSP and Rodeo\n- Create and configure line items — targeting parameters, flight dates, budgets, frequency caps, dayparting, and deal IDs — as per the approved deal terms\n- Set up programmatic guaranteed (PG) and direct-sold deals with precision across PV, AMXP, and 3P Video inventory\n- Ensure correct mapping of advertiser, brand, and campaign hierarchy within the platform\nCreative Upload & QA\n- Upload 1P hosted video creatives and third-party tracking pixels/tags on Rodeo\n- Validate creatives against platform specifications (format, resolution, duration, file size) and ad…"
    }
   }
  ]

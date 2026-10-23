@@ -1,15 +1,15 @@
 {
- "ran_at": "2026-10-22T18:17+00:00",
+ "ran_at": "2026-10-23T08:45+00:00",
  "counts": {
-  "fetched": 929,
-  "relevant": 12,
-  "new": 0,
+  "fetched": 937,
+  "relevant": 13,
+  "new": 1,
   "by_company": {
    "PTC": 143,
    "CSG International": 15,
-   "Marsh McLennan": 316,
-   "Synechron": 118,
-   "Amazon": 337
+   "Marsh McLennan": 318,
+   "Synechron": 120,
+   "Amazon": 341
   }
  },
  "errors": [],
@@ -19,7 +19,7 @@
    "job_id": "JR112163",
    "title": "Associate Software Analyst",
    "location": "Pune, India",
-   "posted": "Posted 7 Days Ago",
+   "posted": "Posted 8 Days Ago",
    "url": "https://ptc.wd1.myworkdayjobs.com/en-US/PTC/job/Pune-India/Associate-Software-Analyst_JR112163",
    "source": "workday",
    "details": {
@@ -39,7 +39,7 @@
    "job_id": "JR1042908-1",
    "title": "GenAI Engineer – LLM, RAG, Agentic AI & MLOps",
    "location": "Bengaluru - Bellandur (GTP); Pune - Client Location (India)",
-   "posted": "Posted Yesterday",
+   "posted": "Posted 2 Days Ago",
    "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Bengaluru---Bellandur-GTP/GenAI-Engineering_JR1042908-1",
    "source": "workday",
    "details": {
@@ -70,7 +70,7 @@
    "job_id": "JR1044951",
    "title": "AWS Platform Engineer – Terraform | Kubernetes | AI/ML Cloud Services",
    "location": "Bengaluru - Thanissandra (BCIT); Bengaluru - Client Location (India)",
-   "posted": "Posted Yesterday",
+   "posted": "Posted 2 Days Ago",
    "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Bengaluru---Thanissandra-BCIT/Sr-Platform-Engineer--AWS-Cloud-Engineer-_JR1044951",
    "source": "workday",
    "details": {
@@ -93,7 +93,7 @@
    "job_id": "JR1037136-1",
    "title": "GCP Big Data Engineer – Python, Spark, Dataflow, BigQuery & ETL/ELT",
    "location": "Gurugram; Bengaluru - Bellandur (GTP) (India)",
-   "posted": "Posted Yesterday",
+   "posted": "Posted 2 Days Ago",
    "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Gurugram/Sr-Associate-Data-Engineer_JR1037136-1",
    "source": "workday",
    "details": {
@@ -129,7 +129,7 @@
    "job_id": "JR1044708-1",
    "title": "AI Engineer",
    "location": "Bengaluru - Bellandur (GTP); Bengaluru - Thanissandra (BCIT); Bengaluru - EC-2 Gateway campus; Bengaluru - Client Location (India)",
-   "posted": "Posted Yesterday",
+   "posted": "Posted 2 Days Ago",
    "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Bengaluru---Bellandur-GTP/AI-Engineer_JR1044708-1",
    "source": "workday",
    "details": {
@@ -162,7 +162,7 @@
    "job_id": "JR112297",
    "title": "Security Analyst - Corporate/Global Security",
    "location": "Pune, India",
-   "posted": "Posted 15 Days Ago",
+   "posted": "Posted 16 Days Ago",
    "url": "https://ptc.wd1.myworkdayjobs.com/en-US/PTC/job/Pune-India/Security-Analyst---Corporate-Global-Security_JR112297",
    "source": "workday",
    "details": {
@@ -179,7 +179,7 @@
    "job_id": "JR112833",
    "title": "IT Generalist Analyst - Salesforce Admin",
    "location": "Pune, India",
-   "posted": "Posted 13 Days Ago",
+   "posted": "Posted 14 Days Ago",
    "url": "https://ptc.wd1.myworkdayjobs.com/en-US/PTC/job/Pune-India/IT-Generalist-Analyst---Salesforce-Admin_JR112833",
    "source": "workday",
    "details": {
@@ -196,10 +196,34 @@
   },
   {
    "company": "PTC",
+   "job_id": "JR112898",
+   "title": "QA Analyst",
+   "location": "Pune, India",
+   "posted": "Posted Today",
+   "url": "https://ptc.wd1.myworkdayjobs.com/en-US/PTC/job/Pune-India/QA-Analyst_JR112898",
+   "source": "workday",
+   "details": {
+    "tech": [
+     "Python",
+     "Java",
+     "AWS",
+     "Azure",
+     "GCP",
+     "Docker / K8s"
+    ],
+    "experience": "1–3 years",
+    "employment": "Full time",
+    "category": "",
+    "posted_date": "2026-10-23",
+    "summary": "Being a part of Arena QA team:\n ·       Co-ordinate with product, engineering team to understand new features getting delivered as a part of release and design test scenarios.\n ·       Design and develop test cases, automation scripts using test management tool, automation framework.\n ·       Execute the test cases and automation scripts to ensure testing is done within the given timelines.\n ·       Be an advocate of quality and make sure quality is not compromised during release.\n Must Have Skills and Knowledge: \n ·       Proficiency in automation testing (script designing, framework maintenance, automated test execution)\n ·       Programming – Core java, python\n ·       Test Automation &…"
+   }
+  },
+  {
+   "company": "PTC",
    "job_id": "JR112829",
    "title": "Analyst Information Technology - (VMware , Azure/AWS, OCP)",
    "location": "Pune, India",
-   "posted": "Posted 15 Days Ago",
+   "posted": "Posted 16 Days Ago",
    "url": "https://ptc.wd1.myworkdayjobs.com/en-US/PTC/job/Pune-India/Analyst-Information-Technology----VMware---Azure-AWS--OCP-_JR112829",
    "source": "workday",
    "details": {
@@ -222,7 +246,7 @@
    "job_id": "JR1044949-1",
    "title": "Azure Databricks Data Engineer – Apache Spark & Azure Data Factory",
    "location": "Pune - Kharadi (EON-II)",
-   "posted": "Posted Today",
+   "posted": "Posted Yesterday",
    "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Pune---Kharadi-EON-II/Sr-Data-Engineer_JR1044949-1",
    "source": "workday",
    "details": {
@@ -249,7 +273,7 @@
    "job_id": "JR1044886",
    "title": "Ab Initio Developer – Data Integration, Cloud Technologies & Agile Delivery",
    "location": "Bengaluru - Bellandur (GTP); Hyderabad  Eco Park (India)",
-   "posted": "Posted 8 Days Ago",
+   "posted": "Posted 9 Days Ago",
    "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Bengaluru---Bellandur-GTP/Ab-Initio-Developer---Data-Integration--Cloud-Technologies---Agile-Delivery_JR1044886",
    "source": "workday",
    "details": {
@@ -271,7 +295,7 @@
    "job_id": "JR1045372",
    "title": "Business Analyst",
    "location": "Pune - Client Location",
-   "posted": "Posted Yesterday",
+   "posted": "Posted 2 Days Ago",
    "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Pune---Client-Location/Lead-BA_JR1045372",
    "source": "workday",
    "details": {
@@ -294,7 +318,7 @@
    "job_id": "JR1045275-1",
    "title": "VisionPlus Technical Business Analyst",
    "location": "Mumbai; Gurugram (India)",
-   "posted": "Posted 7 Days Ago",
+   "posted": "Posted 8 Days Ago",
    "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Mumbai/Technical-Business-Analyst---VisionPLUS--Cards---Payments--SQL_JR1045275-1",
    "source": "workday",
    "details": {

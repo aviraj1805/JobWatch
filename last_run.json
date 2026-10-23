@@ -1,15 +1,15 @@
 {
- "ran_at": "2026-10-23T08:45+00:00",
+ "ran_at": "2026-10-23T18:06+00:00",
  "counts": {
-  "fetched": 937,
+  "fetched": 936,
   "relevant": 13,
   "new": 1,
   "by_company": {
-   "PTC": 143,
+   "PTC": 144,
    "CSG International": 15,
-   "Marsh McLennan": 318,
-   "Synechron": 120,
-   "Amazon": 341
+   "Marsh McLennan": 316,
+   "Synechron": 119,
+   "Amazon": 342
   }
  },
  "errors": [],
@@ -63,6 +63,26 @@
     "category": "",
     "posted_date": "2026-10-21",
     "summary": "Lead the design, training, and deployment of large language models and multimodal agents supporting enterprise automation and insights\n Develop scalable AI pipelines supporting real-time inference, retraining, and model monitoring in cloud environments\n Collaborate with data scientists, platform engineers, and business stakeholders to translate use cases into operational AI systems supporting automation and decision support\n Support prompt engineering, model evaluation, bias detection, and performance tuning for operational reliability and fairness\n Automate deployment, versioning, and monitoring workflows supporting MLOps and responsible AI standards\n Conduct model validation,…"
+   }
+  },
+  {
+   "company": "Synechron",
+   "job_id": "JR1044440-1",
+   "title": "Python + AI",
+   "location": "Bengaluru - Bellandur (GTP); Hyderabad  Eco Park (India)",
+   "posted": "Posted Today",
+   "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Bengaluru---Bellandur-GTP/Python---AI_JR1044440-1",
+   "source": "workday",
+   "details": {
+    "tech": [
+     "Python",
+     "Agile"
+    ],
+    "experience": "5–10 years",
+    "employment": "Full time",
+    "category": "",
+    "posted_date": "2026-10-23",
+    "summary": "Lead and manage cross-functional technology teams\n Provide technical guidance and mentorship to team members\n Drive technology initiatives and ensure successful delivery of projects\n Identify areas for improvement and implement process changes to increase efficiency\n Collaborate with internal stakeholders to understand business requirements and translate them into technology solutions\n Evaluate new technologies and make recommendations for adoption\n Develop and maintain technology roadmaps and ensure alignment with overall business strategy\n Manage vendor relationships and negotiate contracts\n Skills and Experience: \n Bachelor's or Master's degree in Computer Science, Information…"
    }
   },
   {
@@ -196,30 +216,6 @@
   },
   {
    "company": "PTC",
-   "job_id": "JR112898",
-   "title": "QA Analyst",
-   "location": "Pune, India",
-   "posted": "Posted Today",
-   "url": "https://ptc.wd1.myworkdayjobs.com/en-US/PTC/job/Pune-India/QA-Analyst_JR112898",
-   "source": "workday",
-   "details": {
-    "tech": [
-     "Python",
-     "Java",
-     "AWS",
-     "Azure",
-     "GCP",
-     "Docker / K8s"
-    ],
-    "experience": "1–3 years",
-    "employment": "Full time",
-    "category": "",
-    "posted_date": "2026-10-23",
-    "summary": "Being a part of Arena QA team:\n ·       Co-ordinate with product, engineering team to understand new features getting delivered as a part of release and design test scenarios.\n ·       Design and develop test cases, automation scripts using test management tool, automation framework.\n ·       Execute the test cases and automation scripts to ensure testing is done within the given timelines.\n ·       Be an advocate of quality and make sure quality is not compromised during release.\n Must Have Skills and Knowledge: \n ·       Proficiency in automation testing (script designing, framework maintenance, automated test execution)\n ·       Programming – Core java, python\n ·       Test Automation &…"
-   }
-  },
-  {
-   "company": "PTC",
    "job_id": "JR112829",
    "title": "Analyst Information Technology - (VMware , Azure/AWS, OCP)",
    "location": "Pune, India",
@@ -242,30 +238,27 @@
    }
   },
   {
-   "company": "Synechron",
-   "job_id": "JR1044949-1",
-   "title": "Azure Databricks Data Engineer – Apache Spark & Azure Data Factory",
-   "location": "Pune - Kharadi (EON-II)",
-   "posted": "Posted Yesterday",
-   "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Pune---Kharadi-EON-II/Sr-Data-Engineer_JR1044949-1",
+   "company": "PTC",
+   "job_id": "JR112898",
+   "title": "QA Analyst",
+   "location": "Pune, India",
+   "posted": "Posted Today",
+   "url": "https://ptc.wd1.myworkdayjobs.com/en-US/PTC/job/Pune-India/QA-Analyst_JR112898",
    "source": "workday",
    "details": {
     "tech": [
      "Python",
-     "SQL",
-     "Spark",
-     "ETL",
-     "Databricks",
+     "Java",
+     "AWS",
      "Azure",
-     "Git",
-     "Linux",
-     "Agile"
+     "GCP",
+     "Docker / K8s"
     ],
-    "experience": "3+ years",
+    "experience": "1–3 years",
     "employment": "Full time",
     "category": "",
-    "posted_date": "2026-10-22",
-    "summary": "will deliver reliable, secure, and cost-efficient data pipelines that support enterprise business objectives.\n Software Requirements \n Required: \n Azure, Azure Databricks, Azure Data Factory, and Azure Data Lake\n Azure Key Vault, service principals, and Azure CLI\n Apache Spark, PySpark, Python, T-SQL, and Linux/Shell scripting\n Databricks Jobs, Workflows, Azure Pipelines, and CI/CD\n Git and cloud-based data engineering tools\n Preferred: \n Agile delivery experience\n PL/SQL\n Data-quality, monitoring, and infrastructure automation tools\n Overall Responsibilities \n Design, develop, and maintain ETL/ELT pipelines using Spark and Databricks.\n Build batch and streaming data solutions.\n Develop…"
+    "posted_date": "2026-10-23",
+    "summary": "Being a part of Arena QA team:\n ·       Co-ordinate with product, engineering team to understand new features getting delivered as a part of release and design test scenarios.\n ·       Design and develop test cases, automation scripts using test management tool, automation framework.\n ·       Execute the test cases and automation scripts to ensure testing is done within the given timelines.\n ·       Be an advocate of quality and make sure quality is not compromised during release.\n Must Have Skills and Knowledge: \n ·       Proficiency in automation testing (script designing, framework maintenance, automated test execution)\n ·       Programming – Core java, python\n ·       Test Automation &…"
    }
   },
   {

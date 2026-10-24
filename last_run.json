@@ -1,15 +1,15 @@
 {
- "ran_at": "2026-10-23T18:06+00:00",
+ "ran_at": "2026-10-24T08:20+00:00",
  "counts": {
-  "fetched": 936,
+  "fetched": 932,
   "relevant": 13,
-  "new": 1,
+  "new": 0,
   "by_company": {
-   "PTC": 144,
-   "CSG International": 15,
-   "Marsh McLennan": 316,
+   "PTC": 143,
+   "CSG International": 14,
+   "Marsh McLennan": 317,
    "Synechron": 119,
-   "Amazon": 342
+   "Amazon": 339
   }
  },
  "errors": [],
@@ -19,7 +19,7 @@
    "job_id": "JR112163",
    "title": "Associate Software Analyst",
    "location": "Pune, India",
-   "posted": "Posted 8 Days Ago",
+   "posted": "Posted 9 Days Ago",
    "url": "https://ptc.wd1.myworkdayjobs.com/en-US/PTC/job/Pune-India/Associate-Software-Analyst_JR112163",
    "source": "workday",
    "details": {
@@ -39,7 +39,7 @@
    "job_id": "JR1042908-1",
    "title": "GenAI Engineer – LLM, RAG, Agentic AI & MLOps",
    "location": "Bengaluru - Bellandur (GTP); Pune - Client Location (India)",
-   "posted": "Posted 2 Days Ago",
+   "posted": "Posted 3 Days Ago",
    "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Bengaluru---Bellandur-GTP/GenAI-Engineering_JR1042908-1",
    "source": "workday",
    "details": {
@@ -70,7 +70,7 @@
    "job_id": "JR1044440-1",
    "title": "Python + AI",
    "location": "Bengaluru - Bellandur (GTP); Hyderabad  Eco Park (India)",
-   "posted": "Posted Today",
+   "posted": "Posted Yesterday",
    "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Bengaluru---Bellandur-GTP/Python---AI_JR1044440-1",
    "source": "workday",
    "details": {
@@ -90,7 +90,7 @@
    "job_id": "JR1044951",
    "title": "AWS Platform Engineer – Terraform | Kubernetes | AI/ML Cloud Services",
    "location": "Bengaluru - Thanissandra (BCIT); Bengaluru - Client Location (India)",
-   "posted": "Posted 2 Days Ago",
+   "posted": "Posted 3 Days Ago",
    "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Bengaluru---Thanissandra-BCIT/Sr-Platform-Engineer--AWS-Cloud-Engineer-_JR1044951",
    "source": "workday",
    "details": {
@@ -113,7 +113,7 @@
    "job_id": "JR1037136-1",
    "title": "GCP Big Data Engineer – Python, Spark, Dataflow, BigQuery & ETL/ELT",
    "location": "Gurugram; Bengaluru - Bellandur (GTP) (India)",
-   "posted": "Posted 2 Days Ago",
+   "posted": "Posted 3 Days Ago",
    "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Gurugram/Sr-Associate-Data-Engineer_JR1037136-1",
    "source": "workday",
    "details": {
@@ -149,7 +149,7 @@
    "job_id": "JR1044708-1",
    "title": "AI Engineer",
    "location": "Bengaluru - Bellandur (GTP); Bengaluru - Thanissandra (BCIT); Bengaluru - EC-2 Gateway campus; Bengaluru - Client Location (India)",
-   "posted": "Posted 2 Days Ago",
+   "posted": "Posted 3 Days Ago",
    "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Bengaluru---Bellandur-GTP/AI-Engineer_JR1044708-1",
    "source": "workday",
    "details": {
@@ -182,7 +182,7 @@
    "job_id": "JR112297",
    "title": "Security Analyst - Corporate/Global Security",
    "location": "Pune, India",
-   "posted": "Posted 16 Days Ago",
+   "posted": "Posted 17 Days Ago",
    "url": "https://ptc.wd1.myworkdayjobs.com/en-US/PTC/job/Pune-India/Security-Analyst---Corporate-Global-Security_JR112297",
    "source": "workday",
    "details": {
@@ -199,7 +199,7 @@
    "job_id": "JR112833",
    "title": "IT Generalist Analyst - Salesforce Admin",
    "location": "Pune, India",
-   "posted": "Posted 14 Days Ago",
+   "posted": "Posted 15 Days Ago",
    "url": "https://ptc.wd1.myworkdayjobs.com/en-US/PTC/job/Pune-India/IT-Generalist-Analyst---Salesforce-Admin_JR112833",
    "source": "workday",
    "details": {
@@ -216,33 +216,10 @@
   },
   {
    "company": "PTC",
-   "job_id": "JR112829",
-   "title": "Analyst Information Technology - (VMware , Azure/AWS, OCP)",
-   "location": "Pune, India",
-   "posted": "Posted 16 Days Ago",
-   "url": "https://ptc.wd1.myworkdayjobs.com/en-US/PTC/job/Pune-India/Analyst-Information-Technology----VMware---Azure-AWS--OCP-_JR112829",
-   "source": "workday",
-   "details": {
-    "tech": [
-     "AWS",
-     "Azure",
-     "Docker / K8s",
-     "Linux",
-     "VMware"
-    ],
-    "experience": "3–5 years",
-    "employment": "Full time",
-    "category": "",
-    "posted_date": "2026-10-07",
-    "summary": "covers day-to-day administration, monitoring, troubleshooting, VM lifecycle management, patching, security remediation and script-based automation, working within established change and incident management processes. This is a hands-on role for someone with around four years of infrastructure experience who wants to deepen their skills in virtualization, automation and hybrid cloud.\n Role Details\n ·       Experience: 3–5 years (approximately 4 years) in infrastructure or systems administration.\n ·       Department: IT Infrastructure Operations.\n ·       Reports To: Infrastructure Operations Manager.\n ·       Employment Type: Full-time.\n Key Responsibilities\n ·       Administer VMware…"
-   }
-  },
-  {
-   "company": "PTC",
    "job_id": "JR112898",
    "title": "QA Analyst",
    "location": "Pune, India",
-   "posted": "Posted Today",
+   "posted": "Posted Yesterday",
    "url": "https://ptc.wd1.myworkdayjobs.com/en-US/PTC/job/Pune-India/QA-Analyst_JR112898",
    "source": "workday",
    "details": {
@@ -262,11 +239,34 @@
    }
   },
   {
+   "company": "PTC",
+   "job_id": "JR112829",
+   "title": "Analyst Information Technology - (VMware , Azure/AWS, OCP)",
+   "location": "Pune, India",
+   "posted": "Posted 17 Days Ago",
+   "url": "https://ptc.wd1.myworkdayjobs.com/en-US/PTC/job/Pune-India/Analyst-Information-Technology----VMware---Azure-AWS--OCP-_JR112829",
+   "source": "workday",
+   "details": {
+    "tech": [
+     "AWS",
+     "Azure",
+     "Docker / K8s",
+     "Linux",
+     "VMware"
+    ],
+    "experience": "3–5 years",
+    "employment": "Full time",
+    "category": "",
+    "posted_date": "2026-10-07",
+    "summary": "covers day-to-day administration, monitoring, troubleshooting, VM lifecycle management, patching, security remediation and script-based automation, working within established change and incident management processes. This is a hands-on role for someone with around four years of infrastructure experience who wants to deepen their skills in virtualization, automation and hybrid cloud.\n Role Details\n ·       Experience: 3–5 years (approximately 4 years) in infrastructure or systems administration.\n ·       Department: IT Infrastructure Operations.\n ·       Reports To: Infrastructure Operations Manager.\n ·       Employment Type: Full-time.\n Key Responsibilities\n ·       Administer VMware…"
+   }
+  },
+  {
    "company": "Synechron",
    "job_id": "JR1044886",
    "title": "Ab Initio Developer – Data Integration, Cloud Technologies & Agile Delivery",
    "location": "Bengaluru - Bellandur (GTP); Hyderabad  Eco Park (India)",
-   "posted": "Posted 9 Days Ago",
+   "posted": "Posted 10 Days Ago",
    "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Bengaluru---Bellandur-GTP/Ab-Initio-Developer---Data-Integration--Cloud-Technologies---Agile-Delivery_JR1044886",
    "source": "workday",
    "details": {
@@ -288,7 +288,7 @@
    "job_id": "JR1045372",
    "title": "Business Analyst",
    "location": "Pune - Client Location",
-   "posted": "Posted 2 Days Ago",
+   "posted": "Posted 3 Days Ago",
    "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Pune---Client-Location/Lead-BA_JR1045372",
    "source": "workday",
    "details": {
@@ -311,7 +311,7 @@
    "job_id": "JR1045275-1",
    "title": "VisionPlus Technical Business Analyst",
    "location": "Mumbai; Gurugram (India)",
-   "posted": "Posted 8 Days Ago",
+   "posted": "Posted 9 Days Ago",
    "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Mumbai/Technical-Business-Analyst---VisionPLUS--Cards---Payments--SQL_JR1045275-1",
    "source": "workday",
    "details": {

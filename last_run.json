@@ -1,5 +1,5 @@
 {
- "ran_at": "2026-10-26T09:14+00:00",
+ "ran_at": "2026-10-26T19:44+00:00",
  "counts": {
   "fetched": 934,
   "relevant": 12,
@@ -7,9 +7,9 @@
   "by_company": {
    "PTC": 143,
    "CSG International": 14,
-   "Marsh McLennan": 315,
+   "Marsh McLennan": 316,
    "Synechron": 122,
-   "Amazon": 340
+   "Amazon": 339
   }
  },
  "errors": [],
@@ -196,6 +196,29 @@
   },
   {
    "company": "PTC",
+   "job_id": "JR112829",
+   "title": "Analyst Information Technology - (VMware , Azure/AWS, OCP)",
+   "location": "Pune, India",
+   "posted": "Posted 19 Days Ago",
+   "url": "https://ptc.wd1.myworkdayjobs.com/en-US/PTC/job/Pune-India/Analyst-Information-Technology----VMware---Azure-AWS--OCP-_JR112829",
+   "source": "workday",
+   "details": {
+    "tech": [
+     "AWS",
+     "Azure",
+     "Docker / K8s",
+     "Linux",
+     "VMware"
+    ],
+    "experience": "3–5 years",
+    "employment": "Full time",
+    "category": "",
+    "posted_date": "2026-10-07",
+    "summary": "covers day-to-day administration, monitoring, troubleshooting, VM lifecycle management, patching, security remediation and script-based automation, working within established change and incident management processes. This is a hands-on role for someone with around four years of infrastructure experience who wants to deepen their skills in virtualization, automation and hybrid cloud.\n Role Details\n ·       Experience: 3–5 years (approximately 4 years) in infrastructure or systems administration.\n ·       Department: IT Infrastructure Operations.\n ·       Reports To: Infrastructure Operations Manager.\n ·       Employment Type: Full-time.\n Key Responsibilities\n ·       Administer VMware…"
+   }
+  },
+  {
+   "company": "PTC",
    "job_id": "JR112898",
    "title": "QA Analyst",
    "location": "Pune, India",
@@ -216,29 +239,6 @@
     "category": "",
     "posted_date": "2026-10-23",
     "summary": "Being a part of Arena QA team:\n ·       Co-ordinate with product, engineering team to understand new features getting delivered as a part of release and design test scenarios.\n ·       Design and develop test cases, automation scripts using test management tool, automation framework.\n ·       Execute the test cases and automation scripts to ensure testing is done within the given timelines.\n ·       Be an advocate of quality and make sure quality is not compromised during release.\n Must Have Skills and Knowledge: \n ·       Proficiency in automation testing (script designing, framework maintenance, automated test execution)\n ·       Programming – Core java, python\n ·       Test Automation &…"
-   }
-  },
-  {
-   "company": "PTC",
-   "job_id": "JR112829",
-   "title": "Analyst Information Technology - (VMware , Azure/AWS, OCP)",
-   "location": "Pune, India",
-   "posted": "Posted 19 Days Ago",
-   "url": "https://ptc.wd1.myworkdayjobs.com/en-US/PTC/job/Pune-India/Analyst-Information-Technology----VMware---Azure-AWS--OCP-_JR112829",
-   "source": "workday",
-   "details": {
-    "tech": [
-     "AWS",
-     "Azure",
-     "Docker / K8s",
-     "Linux",
-     "VMware"
-    ],
-    "experience": "3–5 years",
-    "employment": "Full time",
-    "category": "",
-    "posted_date": "2026-10-07",
-    "summary": "covers day-to-day administration, monitoring, troubleshooting, VM lifecycle management, patching, security remediation and script-based automation, working within established change and incident management processes. This is a hands-on role for someone with around four years of infrastructure experience who wants to deepen their skills in virtualization, automation and hybrid cloud.\n Role Details\n ·       Experience: 3–5 years (approximately 4 years) in infrastructure or systems administration.\n ·       Department: IT Infrastructure Operations.\n ·       Reports To: Infrastructure Operations Manager.\n ·       Employment Type: Full-time.\n Key Responsibilities\n ·       Administer VMware…"
    }
   },
   {

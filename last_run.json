@@ -1,15 +1,15 @@
 {
- "ran_at": "2026-10-28T09:56+00:00",
+ "ran_at": "2026-10-28T19:18+00:00",
  "counts": {
-  "fetched": 946,
-  "relevant": 12,
-  "new": 0,
+  "fetched": 936,
+  "relevant": 14,
+  "new": 2,
   "by_company": {
    "PTC": 143,
    "CSG International": 14,
-   "Marsh McLennan": 315,
-   "Synechron": 124,
-   "Amazon": 350
+   "Marsh McLennan": 313,
+   "Synechron": 120,
+   "Amazon": 346
   }
  },
  "errors": [],
@@ -32,6 +32,33 @@
     "category": "",
     "posted_date": "2026-10-15",
     "summary": "Responsible for developing and implementing software programming applications for Creo Applications. The individual would be responsible for working and delivering products with quality. Your responsibility would include implementing new features for the Creo Manufacturing or other modules, attaining to customer and internal issues.\n Skills: Pro-active person, eager to learn and build innovative products. C and C++ programming and general knowledge of SDLC and Agile methodology. CAD background and experience of working with the tools and interfaces. The position is for Software Development (CAD/CAM) profile. The candidate must be having very good exposure to C/C++ programming. M.Tech…"
+   }
+  },
+  {
+   "company": "Synechron",
+   "job_id": "JR1041345",
+   "title": "AI Engineer – Python, LLM/GenAI, RAG, AWS & AI Agents",
+   "location": "Pune - Hinjewadi (Ascendas)",
+   "posted": "Posted Today",
+   "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Pune---Hinjewadi-Ascendas/AI-Engineer---Python--LLM-GenAI--RAG--AWS---AI-Agents_JR1041345",
+   "source": "workday",
+   "details": {
+    "tech": [
+     "Python",
+     "JavaScript",
+     "Machine Learning",
+     "GenAI / LLM",
+     "AWS",
+     "Docker / K8s",
+     "Git",
+     "NoSQL",
+     "REST APIs"
+    ],
+    "experience": "3+ years",
+    "employment": "Full time",
+    "category": "",
+    "posted_date": "2026-10-28",
+    "summary": "will focus on developing production-ready generative AI solutions, retrieval-augmented generation (RAG) pipelines, agentic workflows, model integrations, and AI-enabled automation.\n The AI Engineer will contribute to the design, development, deployment, and continuous improvement of AI solutions using Python, large language models (LLMs), AWS services, vector databases, and secure engineering practices. The role will also support code generation, code fixing, security automation, and remediation systems where applicable.\n The position contributes to business objectives by accelerating software delivery, improving engineering productivity, enabling secure AI adoption, automating technical…"
    }
   },
   {
@@ -122,6 +149,32 @@
     "category": "",
     "posted_date": "2026-10-21",
     "summary": "Design, develop, and maintain scalable, resilient data pipelines on GCP to support enterprise analytics and reporting solutions\n Collaborate with business stakeholders, data scientists, and analytics teams to understand data requirements and implement optimized data workflows\n Implement and enforce data quality, security, and governance standards across platforms\n Optimize data ingestion, transformation, and processing workflows to ensure high performance and cost efficiency\n Perform data profiling, troubleshooting, and resolution of pipeline issues to ensure operational reliability\n Stay current with emerging data engineering best practices, tools, and industry trends, leading continuous…"
+   }
+  },
+  {
+   "company": "Synechron",
+   "job_id": "JR1041346-1",
+   "title": "AI Engineer",
+   "location": "Pune - Hinjewadi (Ascendas)",
+   "posted": "Posted Today",
+   "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Pune---Hinjewadi-Ascendas/AI-Engineer_JR1041346-1",
+   "source": "workday",
+   "details": {
+    "tech": [
+     "Python",
+     "JavaScript",
+     "Machine Learning",
+     "GenAI / LLM",
+     "AWS",
+     "Docker / K8s",
+     "Git",
+     "NoSQL"
+    ],
+    "experience": "3+ years",
+    "employment": "Full time",
+    "category": "",
+    "posted_date": "2026-10-28",
+    "summary": "will focus on developing AI-enabled solutions using LLMs, Generative AI, Python, RAG pipelines, MCP servers, vector databases, and AWS services. The AI Engineer will contribute to the design, development, integration, testing, deployment, and improvement of secure AI applications.\n This position supports business objectives by enabling AI-driven automation, improving software engineering productivity, accelerating delivery workflows, supporting code generation and remediation, and delivering scalable AI capabilities within cloud-based environments.\n Software Requirements \n Required Software Skills \n LLMs and Generative AI: Hands-on experience with OpenAI, Bedrock, or similar LLM and GenAI…"
    }
   },
   {

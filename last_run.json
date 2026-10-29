@@ -1,15 +1,15 @@
 {
- "ran_at": "2026-10-29T10:18+00:00",
+ "ran_at": "2026-10-29T19:26+00:00",
  "counts": {
-  "fetched": 937,
-  "relevant": 14,
-  "new": 0,
+  "fetched": 950,
+  "relevant": 15,
+  "new": 2,
   "by_company": {
-   "PTC": 143,
-   "CSG International": 14,
-   "Marsh McLennan": 313,
-   "Synechron": 118,
-   "Amazon": 349
+   "PTC": 146,
+   "CSG International": 15,
+   "Marsh McLennan": 316,
+   "Synechron": 120,
+   "Amazon": 353
   }
  },
  "errors": [],
@@ -113,6 +113,28 @@
     "category": "",
     "posted_date": "2026-10-21",
     "summary": "will design, migrate, secure, and operate scalable AWS platforms.\n Software Requirements\n Required\n AWS core services: EC2, Lambda, S3, EBS, VPC, Route 53, RDS/Aurora, DynamoDB, IAM, and CloudWatch\n Terraform, CloudFormation, or AWS CDK\n Python or another modern programming language\n Docker and Kubernetes, ECS, Fargate, or EKS\n Git and CI/CD tools such as TeamCity or GitHub Actions\n AWS AI services, including Bedrock, SageMaker, Textract, and Amazon Q\n Current AWS Associate-level or higher certification\n Preferred\n MCP and AI agentic workflows\n Advanced AWS certification\n Policy-as-code and automated compliance\n GitOps and cloud cost-optimization tools\n Overall Responsibilities\n Design,…"
+   }
+  },
+  {
+   "company": "Synechron",
+   "job_id": "JR1044817",
+   "title": "AWS Data Engineer – Python, Databases, Capital Markets & DevOps",
+   "location": "Pune - Hinjewadi (Ascendas); Bengaluru - Thanissandra (BCIT); Chennai - Taramani (Ascendas) (India)",
+   "posted": "Posted Today",
+   "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Pune---Hinjewadi-Ascendas/AWS-Data-Engineer---Python--Databases--Capital-Markets---DevOps_JR1044817",
+   "source": "workday",
+   "details": {
+    "tech": [
+     "Python",
+     "AWS",
+     "REST APIs",
+     "Agile"
+    ],
+    "experience": "7–10 years",
+    "employment": "Full time",
+    "category": "",
+    "posted_date": "2026-10-29",
+    "summary": "requires strong AWS knowledge, advanced Python development skills, robust database expertise, and an understanding of capital markets, including Fixed Income instruments and related financial concepts. The AWS Data Engineer will work with relational, columnar, and vector databases while supporting cloud infrastructure, CI/CD processes, and reliable application delivery.\n This position contributes to business objectives by delivering secure and scalable data solutions, improving database performance, supporting capital markets capabilities, strengthening deployment processes, and enabling reliable access to high-quality data.\n Software Requirements \n Required Software Skills \n AWS services…"
    }
   },
   {
@@ -229,26 +251,6 @@
   },
   {
    "company": "PTC",
-   "job_id": "JR112833",
-   "title": "IT Generalist Analyst - Salesforce Admin",
-   "location": "Pune, India",
-   "posted": "Posted 20 Days Ago",
-   "url": "https://ptc.wd1.myworkdayjobs.com/en-US/PTC/job/Pune-India/IT-Generalist-Analyst---Salesforce-Admin_JR112833",
-   "source": "workday",
-   "details": {
-    "tech": [
-     "Salesforce",
-     "Agile"
-    ],
-    "experience": "3+ years",
-    "employment": "Full time",
-    "category": "",
-    "posted_date": "2026-10-09",
-    "summary": "will be responsible for application administration, production support, incident management, user support, monitoring, and continuous improvement of Salesforce solutions. The ideal candidate will work closely with business users, development teams, and stakeholders to ensure stable, secure, and efficient operation of Salesforce environments.\n Key Responsibilities \n Salesforce Administration & Production Support \n Administer, configure, and maintain Salesforce Sales Cloud and Service Cloud environments.\n Manage users, profiles, permission sets, roles, queues, workflows, validation rules, reports, dashboards, and case management processes.\n Troubleshoot and resolve production issues requiring…"
-   }
-  },
-  {
-   "company": "PTC",
    "job_id": "JR112829",
    "title": "Analyst Information Technology - (VMware , Azure/AWS, OCP)",
    "location": "Pune, India",
@@ -292,6 +294,25 @@
     "category": "",
     "posted_date": "2026-10-23",
     "summary": "Being a part of Arena QA team:\n ·       Co-ordinate with product, engineering team to understand new features getting delivered as a part of release and design test scenarios.\n ·       Design and develop test cases, automation scripts using test management tool, automation framework.\n ·       Execute the test cases and automation scripts to ensure testing is done within the given timelines.\n ·       Be an advocate of quality and make sure quality is not compromised during release.\n Must Have Skills and Knowledge: \n ·       Proficiency in automation testing (script designing, framework maintenance, automated test execution)\n ·       Programming – Core java, python\n ·       Test Automation &…"
+   }
+  },
+  {
+   "company": "CSG International",
+   "job_id": "32442",
+   "title": "Financial Analyst I",
+   "location": "Colombia Remote; Brazil Remote (Colombia)",
+   "posted": "Posted Today",
+   "url": "https://csgi.wd5.myworkdayjobs.com/en-US/CSGCareers/job/Colombia-Remote/Financial-Analyst-I_32442",
+   "source": "workday",
+   "details": {
+    "tech": [
+     "Excel"
+    ],
+    "experience": "1–3 years",
+    "employment": "Full time",
+    "category": "",
+    "posted_date": "2026-10-29",
+    "summary": "Hi, I'm Juhi Banerjee , your Recruiter and guide to joining CSG! We are excited to learn more about you and your unique background.\n The Financial and Pricing Analyst I support financial analysis, pricing administration, reporting, reconciliation, and process improvement activities that help drive operational efficiency and profitable business outcomes. This role works closely with Operations, Sales, Account Management, Finance, Accounting, and Technology teams to analyze data, support pricing decisions, maintain reporting, and assist with financial and operational initiatives.\n We are looking for a Financial Analyst I who will:  \n Pricing & Profitability Analysis \n Support the development…"
    }
   },
   {

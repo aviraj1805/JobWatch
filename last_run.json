@@ -1,41 +1,19 @@
 {
- "ran_at": "2026-10-30T10:20+00:00",
+ "ran_at": "2026-10-30T18:59+00:00",
  "counts": {
-  "fetched": 947,
-  "relevant": 15,
-  "new": 1,
+  "fetched": 937,
+  "relevant": 14,
+  "new": 0,
   "by_company": {
    "PTC": 147,
    "CSG International": 15,
-   "Marsh McLennan": 318,
-   "Synechron": 120,
-   "Amazon": 347
+   "Marsh McLennan": 314,
+   "Synechron": 119,
+   "Amazon": 342
   }
  },
  "errors": [],
  "jobs": [
-  {
-   "company": "PTC",
-   "job_id": "JR112473-1",
-   "title": "Associate Software Analyst",
-   "location": "Pune, India",
-   "posted": "Posted Today",
-   "url": "https://ptc.wd1.myworkdayjobs.com/en-US/PTC/job/Pune-India/Associate-Software-Analyst_JR112473-1",
-   "source": "workday",
-   "details": {
-    "tech": [
-     "Python",
-     "SQL",
-     "Java",
-     "Agile"
-    ],
-    "experience": "1–3 years",
-    "employment": "Full time",
-    "category": "",
-    "posted_date": "2026-10-30",
-    "summary": "include:\n Develop and deploy highly secure in multiple environments.\n Work towards achieving 100% automation.\n Participate in Code Analysis/Review, bug fixing.\n Implement industry best practices for system hardening and configuration management\n Sustain and improve the process of knowledge sharing throughout the cross-functional team including multiple groups (viz. IT, Engineering) working on several different technologies\n Communicate effectively about the work done, rationale behind it and the impact on other parts of the product and trade-offs that have been made\n Help shape the DevOps vision and road map\n Must Have Skills & Experience:\n Bachelor’s/Master’s degree in Computer Science,…"
-   }
-  },
   {
    "company": "Synechron",
    "job_id": "JR1041345",

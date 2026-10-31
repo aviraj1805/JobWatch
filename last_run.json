@@ -1,7 +1,7 @@
 {
- "ran_at": "2026-10-31T09:53+00:00",
+ "ran_at": "2026-10-31T18:09+00:00",
  "counts": {
-  "fetched": 935,
+  "fetched": 936,
   "relevant": 14,
   "new": 0,
   "by_company": {
@@ -9,7 +9,7 @@
    "CSG International": 15,
    "Marsh McLennan": 315,
    "Synechron": 119,
-   "Amazon": 339
+   "Amazon": 340
   }
  },
  "errors": [],

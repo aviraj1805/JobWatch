@@ -1,15 +1,15 @@
 {
- "ran_at": "2026-11-02T11:32+00:00",
+ "ran_at": "2026-11-02T22:36+00:00",
  "counts": {
-  "fetched": 934,
-  "relevant": 13,
-  "new": 0,
+  "fetched": 931,
+  "relevant": 14,
+  "new": 1,
   "by_company": {
    "PTC": 146,
-   "CSG International": 15,
-   "Marsh McLennan": 314,
+   "CSG International": 14,
+   "Marsh McLennan": 313,
    "Synechron": 117,
-   "Amazon": 342
+   "Amazon": 341
   }
  },
  "errors": [],
@@ -205,6 +205,23 @@
     "category": "",
     "posted_date": "2026-10-07",
     "summary": "Supports regional Manager, Global Security in all global security strategic focus areas to including Physical & Technical Security, Travel Risk Management, and Crisis Response & Resiliency. \n Provides security office administrative duties as needed, to support PTC employees at the dedicated regional HUB. \n Performs daily operations in the enterprise video and access control software, to include badging & ID, occupancy reporting and video review. \n Responsible for security technology health and maintenance processes and procedures. \n Communicates with PTC managers on office space and restricted space access requests and access rosters. \n Monitors  regional global security mailbox and service…"
+   }
+  },
+  {
+   "company": "PTC",
+   "job_id": "JR112996",
+   "title": "Analyst, HR Operations (EMEA Shift)",
+   "location": "Pune, India",
+   "posted": "Posted Today",
+   "url": "https://ptc.wd1.myworkdayjobs.com/en-US/PTC/job/Pune-India/Sr-Analyst--HR-Operations--EMEA-Shift-_JR112996",
+   "source": "workday",
+   "details": {
+    "tech": [],
+    "experience": "3+ years",
+    "employment": "Full time",
+    "category": "",
+    "posted_date": "2026-11-02",
+    "summary": "The Analyst – HR Operations will play a key role in enhancing employee experience through seamless HR operations, process optimization, and digital Operations. This role will own end-to-end HR processes and service delivery for employees and stakeholders across the EMEA & UK, lead process improvement and reporting initiatives, and act as an escalation point and mentor for junior team members, ensuring a smooth employee lifecycle experience.\n Key Responsibilities\n ·  Own and execute HR processes across the employee lifecycle (onboarding, offboarding, and transitions), serving as the subject matter expert and escalation point for complex cases.\n ·  Drive HR Operations initiatives to improve…"
    }
   },
   {

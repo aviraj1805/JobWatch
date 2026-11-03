@@ -1,25 +1,60 @@
 {
- "ran_at": "2026-11-02T22:36+00:00",
+ "ran_at": "2026-11-03T11:11+00:00",
  "counts": {
-  "fetched": 931,
-  "relevant": 14,
-  "new": 1,
+  "fetched": 938,
+  "relevant": 17,
+  "new": 3,
   "by_company": {
-   "PTC": 146,
+   "PTC": 144,
    "CSG International": 14,
-   "Marsh McLennan": 313,
-   "Synechron": 117,
-   "Amazon": 341
+   "Marsh McLennan": 312,
+   "Synechron": 126,
+   "Amazon": 342
   }
  },
  "errors": [],
  "jobs": [
   {
    "company": "Synechron",
+   "job_id": "JR1042971-1",
+   "title": "AI Engineer – Python, Generative AI, LLM/RAG, Cloud AI & MLOpsMLOps & Kubernetes",
+   "location": "Pune - Hinjewadi (Ascendas)",
+   "posted": "Posted Today",
+   "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Pune---Hinjewadi-Ascendas/AI---Tech-Lead_JR1042971-1",
+   "source": "workday",
+   "details": {
+    "tech": [
+     "Python",
+     "SQL",
+     "scikit-learn",
+     "TensorFlow",
+     "PyTorch",
+     "Machine Learning",
+     "Deep Learning",
+     "NLP",
+     "GenAI / LLM",
+     "ETL",
+     "AWS",
+     "Azure",
+     "GCP",
+     "Docker / K8s",
+     "Git",
+     "NoSQL",
+     "Agile"
+    ],
+    "experience": "6–8 years",
+    "employment": "Full time",
+    "category": "",
+    "posted_date": "2026-11-03",
+    "summary": "will combine hands-on software engineering with technical leadership across machine learning models, LLM-based applications, data pipelines, cloud AI services and production-grade AI platforms.\n The AI Tech Lead will translate business and technical requirements into scalable AI-driven solutions, guide architecture decisions, mentor AI/ML engineers and collaborate with stakeholders to deliver reliable, secure and maintainable products.\n This is a full-time position based in Pune, suitable for professionals with 6–8 years of experience in software development, artificial intelligence or machine learning.\n Software Requirements \n Required\n Python: Strong proficiency for AI/ML development,…"
+   }
+  },
+  {
+   "company": "Synechron",
    "job_id": "JR1041345",
    "title": "AI Engineer – Python, LLM/GenAI, RAG, AWS & AI Agents",
    "location": "Pune - Hinjewadi (Ascendas)",
-   "posted": "Posted 5 Days Ago",
+   "posted": "Posted 6 Days Ago",
    "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Pune---Hinjewadi-Ascendas/AI-Engineer---Python--LLM-GenAI--RAG--AWS---AI-Agents_JR1041345",
    "source": "workday",
    "details": {
@@ -43,10 +78,35 @@
   },
   {
    "company": "Synechron",
+   "job_id": "JR1043354-6",
+   "title": "AI Architecture – Enterprise GenAI, LLMs, RAG, Agentic AI, Azure/AWS & MLOps",
+   "location": "Bengaluru - Bellandur (GTP); Hyderabad  Eco Park; Pune - Hinjewadi (Ascendas); Mumbai (India)",
+   "posted": "Posted Today",
+   "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Bengaluru---Bellandur-GTP/AI-Architecture---Leadership-Manager_JR1043354-6",
+   "source": "workday",
+   "details": {
+    "tech": [
+     "Python",
+     "Machine Learning",
+     "NLP",
+     "GenAI / LLM",
+     "AWS",
+     "Azure",
+     "Docker / K8s"
+    ],
+    "experience": "10+ years",
+    "employment": "Full time",
+    "category": "",
+    "posted_date": "2026-11-03",
+    "summary": "combines AI architecture, cloud-native platform design, technical leadership, stakeholder management and AI strategy execution. The successful candidate will guide multidisciplinary teams, establish scalable and secure AI platforms, support enterprise-wide Generative AI adoption and ensure that AI initiatives align with business objectives.\n Software Requirements \n Required\n Azure and/or AWS: Extensive experience designing and delivering cloud-based AI platforms using current project-supported services.\n Azure OpenAI Services: Experience architecting and integrating LLM-based applications.\n AWS Bedrock: Experience using managed foundation-model services for enterprise AI solutions.\n…"
+   }
+  },
+  {
+   "company": "Synechron",
    "job_id": "JR1042908-1",
    "title": "GenAI Engineer – LLM, RAG, Agentic AI & MLOps",
    "location": "Bengaluru - Bellandur (GTP); Pune - Client Location (India)",
-   "posted": "Posted 12 Days Ago",
+   "posted": "Posted 13 Days Ago",
    "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Bengaluru---Bellandur-GTP/GenAI-Engineering_JR1042908-1",
    "source": "workday",
    "details": {
@@ -77,7 +137,7 @@
    "job_id": "JR1044951",
    "title": "AWS Platform Engineer – Terraform | Kubernetes | AI/ML Cloud Services",
    "location": "Bengaluru - Thanissandra (BCIT); Bengaluru - Client Location (India)",
-   "posted": "Posted 12 Days Ago",
+   "posted": "Posted 13 Days Ago",
    "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Bengaluru---Thanissandra-BCIT/Sr-Platform-Engineer--AWS-Cloud-Engineer-_JR1044951",
    "source": "workday",
    "details": {
@@ -100,7 +160,7 @@
    "job_id": "JR1037136-1",
    "title": "GCP Big Data Engineer – Python, Spark, Dataflow, BigQuery & ETL/ELT",
    "location": "Gurugram; Bengaluru - Bellandur (GTP) (India)",
-   "posted": "Posted 12 Days Ago",
+   "posted": "Posted 13 Days Ago",
    "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Gurugram/Sr-Associate-Data-Engineer_JR1037136-1",
    "source": "workday",
    "details": {
@@ -136,7 +196,7 @@
    "job_id": "JR1041346-1",
    "title": "AI Engineer",
    "location": "Pune - Hinjewadi (Ascendas)",
-   "posted": "Posted 5 Days Ago",
+   "posted": "Posted 6 Days Ago",
    "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Pune---Hinjewadi-Ascendas/AI-Engineer_JR1041346-1",
    "source": "workday",
    "details": {
@@ -162,7 +222,7 @@
    "job_id": "JR1044708-1",
    "title": "AI Engineer",
    "location": "Bengaluru - Bellandur (GTP); Bengaluru - Thanissandra (BCIT); Bengaluru - EC-2 Gateway campus; Bengaluru - Client Location (India)",
-   "posted": "Posted 12 Days Ago",
+   "posted": "Posted Today",
    "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Bengaluru---Bellandur-GTP/AI-Engineer_JR1044708-1",
    "source": "workday",
    "details": {
@@ -186,7 +246,7 @@
     "experience": "4+ years",
     "employment": "Full time",
     "category": "",
-    "posted_date": "2026-10-21",
+    "posted_date": "2026-11-03",
     "summary": "will convert business needs into practical technology solutions, guide engineering teams, and support innovation through secure, scalable, and maintainable systems.\n Software Requirements\n Required\n Python or another production programming language: 4+ years.\n Experience with AI/ML frameworks such as TensorFlow, PyTorch, Scikit-learn, or equivalent.\n SQL and experience with structured and unstructured data.\n Git and software development lifecycle practices.\n REST APIs, cloud services, and automated testing.\n Experience with solution design, system integration, and technical documentation.\n Preferred\n Experience with generative AI, large language models, prompt engineering, or…"
    }
   },
@@ -195,7 +255,7 @@
    "job_id": "JR112297",
    "title": "Security Analyst - Corporate/Global Security",
    "location": "Pune, India",
-   "posted": "Posted 26 Days Ago",
+   "posted": "Posted 27 Days Ago",
    "url": "https://ptc.wd1.myworkdayjobs.com/en-US/PTC/job/Pune-India/Security-Analyst---Corporate-Global-Security_JR112297",
    "source": "workday",
    "details": {
@@ -212,7 +272,7 @@
    "job_id": "JR112996",
    "title": "Analyst, HR Operations (EMEA Shift)",
    "location": "Pune, India",
-   "posted": "Posted Today",
+   "posted": "Posted Yesterday",
    "url": "https://ptc.wd1.myworkdayjobs.com/en-US/PTC/job/Pune-India/Sr-Analyst--HR-Operations--EMEA-Shift-_JR112996",
    "source": "workday",
    "details": {
@@ -229,7 +289,7 @@
    "job_id": "JR112829",
    "title": "Analyst Information Technology - (VMware , Azure/AWS, OCP)",
    "location": "Pune, India",
-   "posted": "Posted 26 Days Ago",
+   "posted": "Posted 27 Days Ago",
    "url": "https://ptc.wd1.myworkdayjobs.com/en-US/PTC/job/Pune-India/Analyst-Information-Technology----VMware---Azure-AWS--OCP-_JR112829",
    "source": "workday",
    "details": {
@@ -252,7 +312,7 @@
    "job_id": "JR112898",
    "title": "QA Analyst",
    "location": "Pune, India",
-   "posted": "Posted 10 Days Ago",
+   "posted": "Posted 11 Days Ago",
    "url": "https://ptc.wd1.myworkdayjobs.com/en-US/PTC/job/Pune-India/QA-Analyst_JR112898",
    "source": "workday",
    "details": {
@@ -276,7 +336,7 @@
    "job_id": "32442",
    "title": "Financial Analyst I",
    "location": "Colombia Remote; Brazil Remote (Colombia)",
-   "posted": "Posted 4 Days Ago",
+   "posted": "Posted 5 Days Ago",
    "url": "https://csgi.wd5.myworkdayjobs.com/en-US/CSGCareers/job/Colombia-Remote/Financial-Analyst-I_32442",
    "source": "workday",
    "details": {
@@ -295,7 +355,7 @@
    "job_id": "JR1044886",
    "title": "Ab Initio Developer – Data Integration, Cloud Technologies & Agile Delivery",
    "location": "Bengaluru - Bellandur (GTP); Hyderabad  Eco Park (India)",
-   "posted": "Posted 19 Days Ago",
+   "posted": "Posted 20 Days Ago",
    "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Bengaluru---Bellandur-GTP/Ab-Initio-Developer---Data-Integration--Cloud-Technologies---Agile-Delivery_JR1044886",
    "source": "workday",
    "details": {
@@ -317,7 +377,7 @@
    "job_id": "JR1045372",
    "title": "Business Analyst",
    "location": "Pune - Client Location",
-   "posted": "Posted 12 Days Ago",
+   "posted": "Posted 13 Days Ago",
    "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Pune---Client-Location/Lead-BA_JR1045372",
    "source": "workday",
    "details": {
@@ -337,10 +397,30 @@
   },
   {
    "company": "Synechron",
+   "job_id": "JR1045906",
+   "title": "Murex Business Analyst – Back Office",
+   "location": "Pune - Hinjewadi (Ascendas)",
+   "posted": "Posted Today",
+   "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Pune---Hinjewadi-Ascendas/Back-office-BA_JR1045906",
+   "source": "workday",
+   "details": {
+    "tech": [
+     "SQL",
+     "Agile"
+    ],
+    "experience": "6+ years",
+    "employment": "Full time",
+    "category": "",
+    "posted_date": "2026-11-03",
+    "summary": "will support trade processing, settlements, confirmations, post-trade workflows, requirements analysis, configuration, testing, defect resolution, and implementation activities. The successful candidate will work with regional business and technology teams to translate operational requirements into practical Murex solutions.This position contributes to business objectives by improving post-trade processing efficiency, settlement accuracy, operational control, issue resolution, and alignment between business requirements and technology delivery.\n Software Requirements \n Required Software Skills \n Murex Back Office: Strong hands-on experience with Murex Back Office functionality and…"
+   }
+  },
+  {
+   "company": "Synechron",
    "job_id": "JR1045275-1",
    "title": "VisionPlus Technical Business Analyst",
    "location": "Mumbai; Gurugram (India)",
-   "posted": "Posted 18 Days Ago",
+   "posted": "Posted 19 Days Ago",
    "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Mumbai/Technical-Business-Analyst---VisionPLUS--Cards---Payments--SQL_JR1045275-1",
    "source": "workday",
    "details": {

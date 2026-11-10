@@ -1,15 +1,15 @@
 {
- "ran_at": "2026-11-10T11:30+00:00",
+ "ran_at": "2026-11-10T20:44+00:00",
  "counts": {
-  "fetched": 973,
+  "fetched": 967,
   "relevant": 14,
-  "new": 2,
+  "new": 0,
   "by_company": {
    "PTC": 141,
    "CSG International": 11,
-   "Marsh McLennan": 323,
-   "Synechron": 138,
-   "Amazon": 360
+   "Marsh McLennan": 321,
+   "Synechron": 141,
+   "Amazon": 353
   }
  },
  "errors": [],

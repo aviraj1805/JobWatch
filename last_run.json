@@ -1,15 +1,15 @@
 {
- "ran_at": "2026-11-09T23:17+00:00",
+ "ran_at": "2026-11-10T11:30+00:00",
  "counts": {
-  "fetched": 971,
-  "relevant": 12,
-  "new": 0,
+  "fetched": 973,
+  "relevant": 14,
+  "new": 2,
   "by_company": {
    "PTC": 141,
    "CSG International": 11,
-   "Marsh McLennan": 321,
-   "Synechron": 137,
-   "Amazon": 361
+   "Marsh McLennan": 323,
+   "Synechron": 138,
+   "Amazon": 360
   }
  },
  "errors": [],
@@ -19,7 +19,7 @@
    "job_id": "JR1042971-1",
    "title": "AI Engineer – Python, Generative AI, LLM/RAG, Cloud AI & MLOpsMLOps & Kubernetes",
    "location": "Pune - Hinjewadi (Ascendas)",
-   "posted": "Posted 6 Days Ago",
+   "posted": "Posted 7 Days Ago",
    "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Pune---Hinjewadi-Ascendas/AI---Tech-Lead_JR1042971-1",
    "source": "workday",
    "details": {
@@ -54,7 +54,7 @@
    "job_id": "JR1041345",
    "title": "AI Engineer – Python, LLM/GenAI, RAG, AWS & AI Agents",
    "location": "Pune - Hinjewadi (Ascendas)",
-   "posted": "Posted 12 Days Ago",
+   "posted": "Posted 13 Days Ago",
    "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Pune---Hinjewadi-Ascendas/AI-Engineer---Python--LLM-GenAI--RAG--AWS---AI-Agents_JR1041345",
    "source": "workday",
    "details": {
@@ -78,10 +78,43 @@
   },
   {
    "company": "Synechron",
+   "job_id": "JR1044708-1",
+   "title": "AI Engineer – Python, Machine Learning & Cloud Solutions",
+   "location": "Bengaluru - Bellandur (GTP); Bengaluru - Thanissandra (BCIT); Bengaluru - EC-2 Gateway campus; Bengaluru - Client Location (India)",
+   "posted": "Posted Today",
+   "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Bengaluru---Bellandur-GTP/AI-Engineer_JR1044708-1",
+   "source": "workday",
+   "details": {
+    "tech": [
+     "Python",
+     "SQL",
+     "Java",
+     "JavaScript",
+     "scikit-learn",
+     "TensorFlow",
+     "PyTorch",
+     "Machine Learning",
+     "GenAI / LLM",
+     "ETL",
+     "Docker / K8s",
+     "Git",
+     "NoSQL",
+     "REST APIs",
+     "Agile"
+    ],
+    "experience": "4+ years",
+    "employment": "Full time",
+    "category": "",
+    "posted_date": "2026-11-10",
+    "summary": "will convert business needs into practical technology solutions, guide engineering teams, and support innovation through secure, scalable, and maintainable systems.\n Software Requirements \n Required \n Python or another production programming language: 4+ years.\n Experience with AI/ML frameworks such as TensorFlow, PyTorch, Scikit-learn, or equivalent.\n SQL and experience with structured and unstructured data.\n Git and software development lifecycle practices.\n REST APIs, cloud services, and automated testing.\n Experience with solution design, system integration, and technical documentation.\n Preferred \n Experience with generative AI, large language models, prompt engineering, or…"
+   }
+  },
+  {
+   "company": "Synechron",
    "job_id": "JR1043354-6",
    "title": "AI Architecture – Enterprise GenAI, LLMs, RAG, Agentic AI, Azure/AWS & MLOps",
    "location": "Bengaluru - Bellandur (GTP); Hyderabad  Eco Park; Pune - Hinjewadi (Ascendas); Mumbai (India)",
-   "posted": "Posted 6 Days Ago",
+   "posted": "Posted 7 Days Ago",
    "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Bengaluru---Bellandur-GTP/AI-Architecture---Leadership-Manager_JR1043354-6",
    "source": "workday",
    "details": {
@@ -106,7 +139,7 @@
    "job_id": "JR1044951",
    "title": "AWS Platform Engineer – Terraform | Kubernetes | AI/ML Cloud Services",
    "location": "Bengaluru - Thanissandra (BCIT); Bengaluru - Client Location (India)",
-   "posted": "Posted 19 Days Ago",
+   "posted": "Posted 20 Days Ago",
    "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Bengaluru---Thanissandra-BCIT/Sr-Platform-Engineer--AWS-Cloud-Engineer-_JR1044951",
    "source": "workday",
    "details": {
@@ -129,7 +162,7 @@
    "job_id": "JR1041346-1",
    "title": "AI Engineer",
    "location": "Pune - Hinjewadi (Ascendas)",
-   "posted": "Posted 12 Days Ago",
+   "posted": "Posted 13 Days Ago",
    "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Pune---Hinjewadi-Ascendas/AI-Engineer_JR1041346-1",
    "source": "workday",
    "details": {
@@ -152,35 +185,56 @@
   },
   {
    "company": "Synechron",
-   "job_id": "JR1044708-1",
-   "title": "AI Engineer",
-   "location": "Bengaluru - Bellandur (GTP); Bengaluru - Thanissandra (BCIT); Bengaluru - EC-2 Gateway campus; Bengaluru - Client Location (India)",
-   "posted": "Posted 6 Days Ago",
-   "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Bengaluru---Bellandur-GTP/AI-Engineer_JR1044708-1",
+   "job_id": "JR1044771",
+   "title": "Agentic AI Engineer – AWS Bedrock, LangGraph, RAG & Multi-Agent Systems",
+   "location": "Pune - Hinjewadi (Ascendas)",
+   "posted": "Posted Today",
+   "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Pune---Hinjewadi-Ascendas/Agentic-AI-Engineer---AWS-Bedrock--LangGraph--RAG---Multi-Agent-Systems_JR1044771",
    "source": "workday",
    "details": {
     "tech": [
      "Python",
-     "SQL",
-     "Java",
-     "JavaScript",
-     "scikit-learn",
-     "TensorFlow",
-     "PyTorch",
      "Machine Learning",
      "GenAI / LLM",
      "ETL",
+     "AWS",
      "Docker / K8s",
      "Git",
      "NoSQL",
-     "REST APIs",
      "Agile"
     ],
-    "experience": "4+ years",
+    "experience": "1–2 years",
     "employment": "Full time",
     "category": "",
-    "posted_date": "2026-11-03",
-    "summary": "will convert business needs into practical technology solutions, guide engineering teams, and support innovation through secure, scalable, and maintainable systems.\n Software Requirements\n Required\n Python or another production programming language: 4+ years.\n Experience with AI/ML frameworks such as TensorFlow, PyTorch, Scikit-learn, or equivalent.\n SQL and experience with structured and unstructured data.\n Git and software development lifecycle practices.\n REST APIs, cloud services, and automated testing.\n Experience with solution design, system integration, and technical documentation.\n Preferred\n Experience with generative AI, large language models, prompt engineering, or…"
+    "posted_date": "2026-11-10",
+    "summary": "will focus on developing complex multi-agent orchestration frameworks and advanced Retrieval-Augmented Generation (RAG) systems using AWS Bedrock as the primary foundation model platform. The successful candidate will work with structured and unstructured enterprise data to build autonomous reasoning, planning, memory, and tool-calling workflows that safely automate complex business processes.\n This position will contribute to business objectives by enabling intelligent workflow automation, improving decision support, increasing operational efficiency, and delivering secure, scalable, measurable, and maintainable AI solutions.\n Software Requirements \n Required Software Skills \n Python:…"
+   }
+  },
+  {
+   "company": "Synechron",
+   "job_id": "JR1044773",
+   "title": "Agentic AI Engineer – AWS Bedrock, LangGraph, RAG & Multi-Agent Systems",
+   "location": "Pune - Hinjewadi (Ascendas)",
+   "posted": "Posted Today",
+   "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Pune---Hinjewadi-Ascendas/Agentic-AI-Engineer---AWS-Bedrock--LangGraph--RAG---Multi-Agent-Systems_JR1044773",
+   "source": "workday",
+   "details": {
+    "tech": [
+     "Python",
+     "Machine Learning",
+     "GenAI / LLM",
+     "ETL",
+     "AWS",
+     "Docker / K8s",
+     "Git",
+     "NoSQL",
+     "Agile"
+    ],
+    "experience": "1–2 years",
+    "employment": "Full time",
+    "category": "",
+    "posted_date": "2026-11-10",
+    "summary": "will focus on building complex multi-agent orchestration frameworks and advanced Retrieval-Augmented Generation (RAG) systems using AWS Bedrock as the primary cloud foundation model platform. The engineer will work with structured and unstructured enterprise datasets to develop autonomous reasoning, planning, memory, and tool-calling workflows that safely automate complex business processes.\n The position will contribute to business objectives by enabling intelligent workflow automation, improving operational efficiency, supporting reliable decision-making, and delivering secure, scalable, measurable, and maintainable AI solutions.\n Software Requirements \n Required Software Skills \n Python:…"
    }
   },
   {
@@ -188,7 +242,7 @@
    "job_id": "JR112996",
    "title": "Analyst, HR Operations (EMEA Shift)",
    "location": "Pune, India",
-   "posted": "Posted 7 Days Ago",
+   "posted": "Posted 8 Days Ago",
    "url": "https://ptc.wd1.myworkdayjobs.com/en-US/PTC/job/Pune-India/Sr-Analyst--HR-Operations--EMEA-Shift-_JR112996",
    "source": "workday",
    "details": {
@@ -205,7 +259,7 @@
    "job_id": "JR112997",
    "title": "Analyst, HR Operations (US Shift)",
    "location": "Pune, India",
-   "posted": "Posted 4 Days Ago",
+   "posted": "Posted 5 Days Ago",
    "url": "https://ptc.wd1.myworkdayjobs.com/en-US/PTC/job/Pune-India/Analyst--HR-Operations--US-Shift-_JR112997",
    "source": "workday",
    "details": {
@@ -222,7 +276,7 @@
    "job_id": "32442",
    "title": "Financial Analyst I",
    "location": "Colombia Remote; Brazil Remote (Colombia)",
-   "posted": "Posted 11 Days Ago",
+   "posted": "Posted 12 Days Ago",
    "url": "https://csgi.wd5.myworkdayjobs.com/en-US/CSGCareers/job/Colombia-Remote/Financial-Analyst-I_32442",
    "source": "workday",
    "details": {
@@ -241,7 +295,7 @@
    "job_id": "JR1045372",
    "title": "Business Analyst",
    "location": "Pune - Client Location",
-   "posted": "Posted 19 Days Ago",
+   "posted": "Posted 20 Days Ago",
    "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Pune---Client-Location/Lead-BA_JR1045372",
    "source": "workday",
    "details": {
@@ -264,7 +318,7 @@
    "job_id": "JR1045906",
    "title": "Murex Business Analyst – Back Office",
    "location": "Pune - Hinjewadi (Ascendas)",
-   "posted": "Posted 6 Days Ago",
+   "posted": "Posted 7 Days Ago",
    "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Pune---Hinjewadi-Ascendas/Back-office-BA_JR1045906",
    "source": "workday",
    "details": {
@@ -284,7 +338,7 @@
    "job_id": "JR1045275-1",
    "title": "VisionPlus Technical Business Analyst",
    "location": "Mumbai; Gurugram (India)",
-   "posted": "Posted 25 Days Ago",
+   "posted": "Posted 26 Days Ago",
    "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Mumbai/Technical-Business-Analyst---VisionPLUS--Cards---Payments--SQL_JR1045275-1",
    "source": "workday",
    "details": {

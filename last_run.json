@@ -1,15 +1,15 @@
 {
- "ran_at": "2026-11-10T20:44+00:00",
+ "ran_at": "2026-11-11T11:19+00:00",
  "counts": {
-  "fetched": 967,
-  "relevant": 14,
-  "new": 0,
+  "fetched": 973,
+  "relevant": 16,
+  "new": 2,
   "by_company": {
    "PTC": 141,
    "CSG International": 11,
-   "Marsh McLennan": 321,
-   "Synechron": 141,
-   "Amazon": 353
+   "Marsh McLennan": 322,
+   "Synechron": 147,
+   "Amazon": 352
   }
  },
  "errors": [],
@@ -19,7 +19,7 @@
    "job_id": "JR1042971-1",
    "title": "AI Engineer – Python, Generative AI, LLM/RAG, Cloud AI & MLOpsMLOps & Kubernetes",
    "location": "Pune - Hinjewadi (Ascendas)",
-   "posted": "Posted 7 Days Ago",
+   "posted": "Posted 8 Days Ago",
    "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Pune---Hinjewadi-Ascendas/AI---Tech-Lead_JR1042971-1",
    "source": "workday",
    "details": {
@@ -54,7 +54,7 @@
    "job_id": "JR1041345",
    "title": "AI Engineer – Python, LLM/GenAI, RAG, AWS & AI Agents",
    "location": "Pune - Hinjewadi (Ascendas)",
-   "posted": "Posted 13 Days Ago",
+   "posted": "Posted 14 Days Ago",
    "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Pune---Hinjewadi-Ascendas/AI-Engineer---Python--LLM-GenAI--RAG--AWS---AI-Agents_JR1041345",
    "source": "workday",
    "details": {
@@ -81,7 +81,7 @@
    "job_id": "JR1044708-1",
    "title": "AI Engineer – Python, Machine Learning & Cloud Solutions",
    "location": "Bengaluru - Bellandur (GTP); Bengaluru - Thanissandra (BCIT); Bengaluru - EC-2 Gateway campus; Bengaluru - Client Location (India)",
-   "posted": "Posted Today",
+   "posted": "Posted Yesterday",
    "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Bengaluru---Bellandur-GTP/AI-Engineer_JR1044708-1",
    "source": "workday",
    "details": {
@@ -114,7 +114,7 @@
    "job_id": "JR1043354-6",
    "title": "AI Architecture – Enterprise GenAI, LLMs, RAG, Agentic AI, Azure/AWS & MLOps",
    "location": "Bengaluru - Bellandur (GTP); Hyderabad  Eco Park; Pune - Hinjewadi (Ascendas); Mumbai (India)",
-   "posted": "Posted 7 Days Ago",
+   "posted": "Posted 8 Days Ago",
    "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Bengaluru---Bellandur-GTP/AI-Architecture---Leadership-Manager_JR1043354-6",
    "source": "workday",
    "details": {
@@ -139,7 +139,7 @@
    "job_id": "JR1044951",
    "title": "AWS Platform Engineer – Terraform | Kubernetes | AI/ML Cloud Services",
    "location": "Bengaluru - Thanissandra (BCIT); Bengaluru - Client Location (India)",
-   "posted": "Posted 20 Days Ago",
+   "posted": "Posted Today",
    "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Bengaluru---Thanissandra-BCIT/Sr-Platform-Engineer--AWS-Cloud-Engineer-_JR1044951",
    "source": "workday",
    "details": {
@@ -153,7 +153,7 @@
     "experience": "8+ years",
     "employment": "Full time",
     "category": "",
-    "posted_date": "2026-10-21",
+    "posted_date": "2026-11-11",
     "summary": "will design, migrate, secure, and operate scalable AWS platforms.\n Software Requirements\n Required\n AWS core services: EC2, Lambda, S3, EBS, VPC, Route 53, RDS/Aurora, DynamoDB, IAM, and CloudWatch\n Terraform, CloudFormation, or AWS CDK\n Python or another modern programming language\n Docker and Kubernetes, ECS, Fargate, or EKS\n Git and CI/CD tools such as TeamCity or GitHub Actions\n AWS AI services, including Bedrock, SageMaker, Textract, and Amazon Q\n Current AWS Associate-level or higher certification\n Preferred\n MCP and AI agentic workflows\n Advanced AWS certification\n Policy-as-code and automated compliance\n GitOps and cloud cost-optimization tools\n Overall Responsibilities\n Design,…"
    }
   },
@@ -162,7 +162,7 @@
    "job_id": "JR1041346-1",
    "title": "AI Engineer",
    "location": "Pune - Hinjewadi (Ascendas)",
-   "posted": "Posted 13 Days Ago",
+   "posted": "Posted 14 Days Ago",
    "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Pune---Hinjewadi-Ascendas/AI-Engineer_JR1041346-1",
    "source": "workday",
    "details": {
@@ -188,7 +188,7 @@
    "job_id": "JR1044771",
    "title": "Agentic AI Engineer – AWS Bedrock, LangGraph, RAG & Multi-Agent Systems",
    "location": "Pune - Hinjewadi (Ascendas)",
-   "posted": "Posted Today",
+   "posted": "Posted Yesterday",
    "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Pune---Hinjewadi-Ascendas/Agentic-AI-Engineer---AWS-Bedrock--LangGraph--RAG---Multi-Agent-Systems_JR1044771",
    "source": "workday",
    "details": {
@@ -215,7 +215,7 @@
    "job_id": "JR1044773",
    "title": "Agentic AI Engineer – AWS Bedrock, LangGraph, RAG & Multi-Agent Systems",
    "location": "Pune - Hinjewadi (Ascendas)",
-   "posted": "Posted Today",
+   "posted": "Posted Yesterday",
    "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Pune---Hinjewadi-Ascendas/Agentic-AI-Engineer---AWS-Bedrock--LangGraph--RAG---Multi-Agent-Systems_JR1044773",
    "source": "workday",
    "details": {
@@ -242,7 +242,7 @@
    "job_id": "JR112996",
    "title": "Analyst, HR Operations (EMEA Shift)",
    "location": "Pune, India",
-   "posted": "Posted 8 Days Ago",
+   "posted": "Posted 9 Days Ago",
    "url": "https://ptc.wd1.myworkdayjobs.com/en-US/PTC/job/Pune-India/Sr-Analyst--HR-Operations--EMEA-Shift-_JR112996",
    "source": "workday",
    "details": {
@@ -259,7 +259,7 @@
    "job_id": "JR112997",
    "title": "Analyst, HR Operations (US Shift)",
    "location": "Pune, India",
-   "posted": "Posted 5 Days Ago",
+   "posted": "Posted 6 Days Ago",
    "url": "https://ptc.wd1.myworkdayjobs.com/en-US/PTC/job/Pune-India/Analyst--HR-Operations--US-Shift-_JR112997",
    "source": "workday",
    "details": {
@@ -276,7 +276,7 @@
    "job_id": "32442",
    "title": "Financial Analyst I",
    "location": "Colombia Remote; Brazil Remote (Colombia)",
-   "posted": "Posted 12 Days Ago",
+   "posted": "Posted 13 Days Ago",
    "url": "https://csgi.wd5.myworkdayjobs.com/en-US/CSGCareers/job/Colombia-Remote/Financial-Analyst-I_32442",
    "source": "workday",
    "details": {
@@ -295,7 +295,7 @@
    "job_id": "JR1045372",
    "title": "Business Analyst",
    "location": "Pune - Client Location",
-   "posted": "Posted 20 Days Ago",
+   "posted": "Posted 21 Days Ago",
    "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Pune---Client-Location/Lead-BA_JR1045372",
    "source": "workday",
    "details": {
@@ -318,7 +318,7 @@
    "job_id": "JR1045906",
    "title": "Murex Business Analyst – Back Office",
    "location": "Pune - Hinjewadi (Ascendas)",
-   "posted": "Posted 7 Days Ago",
+   "posted": "Posted 8 Days Ago",
    "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Pune---Hinjewadi-Ascendas/Back-office-BA_JR1045906",
    "source": "workday",
    "details": {
@@ -338,7 +338,7 @@
    "job_id": "JR1045275-1",
    "title": "VisionPlus Technical Business Analyst",
    "location": "Mumbai; Gurugram (India)",
-   "posted": "Posted 26 Days Ago",
+   "posted": "Posted 27 Days Ago",
    "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Mumbai/Technical-Business-Analyst---VisionPLUS--Cards---Payments--SQL_JR1045275-1",
    "source": "workday",
    "details": {
@@ -351,6 +351,46 @@
     "category": "",
     "posted_date": "2026-10-15",
     "summary": "requires 10+ years of Business Analyst experience , with hands-on expertise in VisionPLUS applications and a strong understanding of the cards and payments domain. The successful candidate will gather and translate business requirements into functional solutions, support VisionPLUS and related payment systems, and coordinate delivery across business, development, testing, UAT, and production support teams. This role contributes to business objectives by enabling accurate requirements, effective system enhancements, reliable integrations, and timely delivery of payment-related solutions.\n Software Requirements (Required and Preferred) \n Required \n VisionPLUS: Hands-on experience with CMS,…"
+   }
+  },
+  {
+   "company": "Amazon",
+   "job_id": "10602192",
+   "title": "Data Center Logistics Specialist, Data Center Logistics Specialist",
+   "location": "Mumbai, Maharashtra, IND",
+   "posted": "November 11, 2026",
+   "url": "https://www.amazon.jobs/en/jobs/10602192/data-center-logistics-specialist-data-center-logistics-specialist",
+   "source": "amazon",
+   "details": {
+    "tech": [
+     "AWS",
+     "Excel"
+    ],
+    "experience": "2+ years",
+    "employment": "Full time",
+    "category": "Operations, IT, & Support Engineering",
+    "posted_date": "2026-11-11",
+    "summary": "Key job responsibilities\nLogistics Specialists are expected to understand all aspects of transportation, shipping and receiving as well as inventory control, adhere to strict safety standards, maintain very high quality, and be willing and able to work on material handling equipment (i.e Pallet Jack).\n - Completing manual tasks, such as assembling, addressing and arranging for the shipment of materials, handling incoming shipments, unpack boxes and verify contents\n - Load and unload large equipment utilizing pallet jacks\n - Maintain accountability of in-stock components as well as receive and process inbound shipments\n - Assist with ongoing requests to ensure that proper stock levels are…"
+   }
+  },
+  {
+   "company": "Amazon",
+   "job_id": "10601954",
+   "title": "Electrical Design Engineer, APAC Data Center Design Engineering",
+   "location": "Mumbai, Maharashtra, IND",
+   "posted": "November 11, 2026",
+   "url": "https://www.amazon.jobs/en/jobs/10601954/electrical-design-engineer-apac-data-center-design-engineering",
+   "source": "amazon",
+   "details": {
+    "tech": [
+     "AWS",
+     "Excel"
+    ],
+    "experience": "4+ years",
+    "employment": "Full time",
+    "category": "Design",
+    "posted_date": "2026-11-11",
+    "summary": "The Electrical Engineer will be responsible for the following:\n• Lead Data center electrical designs in collaboration with other disciplines to create a coordinated construction document set\n• Participate in site selection reviews and work with local utilities to understand and define site utility requirements\n• Critical Data Center equipment design including site-wide MV infrastructure, Generators, Uninterruptible Power Supplies, Switchgear, Transformers and Earthing\n• Creation of designs which meet or exceed our quality requirements and fall within our budgetary requirements\n• Work with regional vendors and manufacturers to specify the appropriate electrical equipment\n• Work with local…"
    }
   }
  ]

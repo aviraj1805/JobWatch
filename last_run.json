@@ -1,15 +1,15 @@
 {
- "ran_at": "2026-11-12T11:37+00:00",
+ "ran_at": "2026-11-12T21:19+00:00",
  "counts": {
-  "fetched": 976,
-  "relevant": 12,
+  "fetched": 978,
+  "relevant": 11,
   "new": 0,
   "by_company": {
    "PTC": 144,
    "CSG International": 11,
    "Marsh McLennan": 323,
    "Synechron": 147,
-   "Amazon": 351
+   "Amazon": 353
   }
  },
  "errors": [],
@@ -281,26 +281,6 @@
     "category": "",
     "posted_date": "2026-10-15",
     "summary": "requires 10+ years of Business Analyst experience , with hands-on expertise in VisionPLUS applications and a strong understanding of the cards and payments domain. The successful candidate will gather and translate business requirements into functional solutions, support VisionPLUS and related payment systems, and coordinate delivery across business, development, testing, UAT, and production support teams. This role contributes to business objectives by enabling accurate requirements, effective system enhancements, reliable integrations, and timely delivery of payment-related solutions.\n Software Requirements (Required and Preferred) \n Required \n VisionPLUS: Hands-on experience with CMS,…"
-   }
-  },
-  {
-   "company": "Amazon",
-   "job_id": "10602192",
-   "title": "Data Center Logistics Specialist, Data Center Logistics Specialist",
-   "location": "Mumbai, Maharashtra, IND",
-   "posted": "November 11, 2026",
-   "url": "https://www.amazon.jobs/en/jobs/10602192/data-center-logistics-specialist-data-center-logistics-specialist",
-   "source": "amazon",
-   "details": {
-    "tech": [
-     "AWS",
-     "Excel"
-    ],
-    "experience": "2+ years",
-    "employment": "Full time",
-    "category": "Operations, IT, & Support Engineering",
-    "posted_date": "2026-11-11",
-    "summary": "Key job responsibilities\nLogistics Specialists are expected to understand all aspects of transportation, shipping and receiving as well as inventory control, adhere to strict safety standards, maintain very high quality, and be willing and able to work on material handling equipment (i.e Pallet Jack).\n - Completing manual tasks, such as assembling, addressing and arranging for the shipment of materials, handling incoming shipments, unpack boxes and verify contents\n - Load and unload large equipment utilizing pallet jacks\n - Maintain accountability of in-stock components as well as receive and process inbound shipments\n - Assist with ongoing requests to ensure that proper stock levels are…"
    }
   }
  ]

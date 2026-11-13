@@ -1,15 +1,15 @@
 {
- "ran_at": "2026-11-12T21:19+00:00",
+ "ran_at": "2026-11-13T11:21+00:00",
  "counts": {
-  "fetched": 978,
+  "fetched": 974,
   "relevant": 11,
   "new": 0,
   "by_company": {
-   "PTC": 144,
-   "CSG International": 11,
-   "Marsh McLennan": 323,
-   "Synechron": 147,
-   "Amazon": 353
+   "PTC": 143,
+   "CSG International": 12,
+   "Marsh McLennan": 318,
+   "Synechron": 149,
+   "Amazon": 352
   }
  },
  "errors": [],
@@ -19,7 +19,7 @@
    "job_id": "JR1042971-1",
    "title": "AI Engineer – Python, Generative AI, LLM/RAG, Cloud AI & MLOpsMLOps & Kubernetes",
    "location": "Pune - Hinjewadi (Ascendas)",
-   "posted": "Posted 9 Days Ago",
+   "posted": "Posted 10 Days Ago",
    "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Pune---Hinjewadi-Ascendas/AI---Tech-Lead_JR1042971-1",
    "source": "workday",
    "details": {
@@ -54,7 +54,7 @@
    "job_id": "JR1044708-1",
    "title": "AI Engineer – Python, Machine Learning & Cloud Solutions",
    "location": "Bengaluru - Bellandur (GTP); Bengaluru - Thanissandra (BCIT); Bengaluru - EC-2 Gateway campus; Bengaluru - Client Location (India)",
-   "posted": "Posted 2 Days Ago",
+   "posted": "Posted 3 Days Ago",
    "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Bengaluru---Bellandur-GTP/AI-Engineer_JR1044708-1",
    "source": "workday",
    "details": {
@@ -87,7 +87,7 @@
    "job_id": "JR1043354-6",
    "title": "AI Architecture – Enterprise GenAI, LLMs, RAG, Agentic AI, Azure/AWS & MLOps",
    "location": "Bengaluru - Bellandur (GTP); Hyderabad  Eco Park; Pune - Hinjewadi (Ascendas); Mumbai (India)",
-   "posted": "Posted 9 Days Ago",
+   "posted": "Posted 10 Days Ago",
    "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Bengaluru---Bellandur-GTP/AI-Architecture---Leadership-Manager_JR1043354-6",
    "source": "workday",
    "details": {
@@ -112,7 +112,7 @@
    "job_id": "JR1044951",
    "title": "AWS Platform Engineer – Terraform | Kubernetes | AI/ML Cloud Services",
    "location": "Bengaluru - Thanissandra (BCIT); Bengaluru - Client Location (India)",
-   "posted": "Posted Yesterday",
+   "posted": "Posted 2 Days Ago",
    "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Bengaluru---Thanissandra-BCIT/Sr-Platform-Engineer--AWS-Cloud-Engineer-_JR1044951",
    "source": "workday",
    "details": {
@@ -135,7 +135,7 @@
    "job_id": "JR1044771",
    "title": "Agentic AI Engineer – AWS Bedrock, LangGraph, RAG & Multi-Agent Systems",
    "location": "Pune - Hinjewadi (Ascendas)",
-   "posted": "Posted 2 Days Ago",
+   "posted": "Posted 3 Days Ago",
    "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Pune---Hinjewadi-Ascendas/Agentic-AI-Engineer---AWS-Bedrock--LangGraph--RAG---Multi-Agent-Systems_JR1044771",
    "source": "workday",
    "details": {
@@ -162,7 +162,7 @@
    "job_id": "JR1044773",
    "title": "Agentic AI Engineer – AWS Bedrock, LangGraph, RAG & Multi-Agent Systems",
    "location": "Pune - Hinjewadi (Ascendas)",
-   "posted": "Posted 2 Days Ago",
+   "posted": "Posted 3 Days Ago",
    "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Pune---Hinjewadi-Ascendas/Agentic-AI-Engineer---AWS-Bedrock--LangGraph--RAG---Multi-Agent-Systems_JR1044773",
    "source": "workday",
    "details": {
@@ -189,7 +189,7 @@
    "job_id": "JR112996",
    "title": "Analyst, HR Operations (EMEA Shift)",
    "location": "Pune, India",
-   "posted": "Posted 10 Days Ago",
+   "posted": "Posted 11 Days Ago",
    "url": "https://ptc.wd1.myworkdayjobs.com/en-US/PTC/job/Pune-India/Sr-Analyst--HR-Operations--EMEA-Shift-_JR112996",
    "source": "workday",
    "details": {
@@ -206,7 +206,7 @@
    "job_id": "32442",
    "title": "Financial Analyst I",
    "location": "Colombia Remote; Brazil Remote (Colombia)",
-   "posted": "Posted 14 Days Ago",
+   "posted": "Posted 15 Days Ago",
    "url": "https://csgi.wd5.myworkdayjobs.com/en-US/CSGCareers/job/Colombia-Remote/Financial-Analyst-I_32442",
    "source": "workday",
    "details": {
@@ -225,7 +225,7 @@
    "job_id": "JR1045372",
    "title": "Business Analyst",
    "location": "Pune - Client Location",
-   "posted": "Posted 22 Days Ago",
+   "posted": "Posted 23 Days Ago",
    "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Pune---Client-Location/Lead-BA_JR1045372",
    "source": "workday",
    "details": {
@@ -248,7 +248,7 @@
    "job_id": "JR1045906",
    "title": "Murex Business Analyst – Back Office",
    "location": "Pune - Hinjewadi (Ascendas)",
-   "posted": "Posted 9 Days Ago",
+   "posted": "Posted 10 Days Ago",
    "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Pune---Hinjewadi-Ascendas/Back-office-BA_JR1045906",
    "source": "workday",
    "details": {
@@ -268,7 +268,7 @@
    "job_id": "JR1045275-1",
    "title": "VisionPlus Technical Business Analyst",
    "location": "Mumbai; Gurugram (India)",
-   "posted": "Posted 28 Days Ago",
+   "posted": "Posted 29 Days Ago",
    "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Mumbai/Technical-Business-Analyst---VisionPLUS--Cards---Payments--SQL_JR1045275-1",
    "source": "workday",
    "details": {

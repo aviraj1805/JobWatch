@@ -1,15 +1,15 @@
 {
- "ran_at": "2026-11-14T18:57+00:00",
+ "ran_at": "2026-11-15T11:20+00:00",
  "counts": {
   "fetched": 970,
-  "relevant": 11,
+  "relevant": 10,
   "new": 0,
   "by_company": {
    "PTC": 143,
    "CSG International": 12,
-   "Marsh McLennan": 324,
+   "Marsh McLennan": 325,
    "Synechron": 148,
-   "Amazon": 343
+   "Amazon": 342
   }
  },
  "errors": [],
@@ -19,7 +19,7 @@
    "job_id": "JR1042971-1",
    "title": "AI Engineer – Python, Generative AI, LLM/RAG, Cloud AI & MLOpsMLOps & Kubernetes",
    "location": "Pune - Hinjewadi (Ascendas)",
-   "posted": "Posted 11 Days Ago",
+   "posted": "Posted 12 Days Ago",
    "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Pune---Hinjewadi-Ascendas/AI---Tech-Lead_JR1042971-1",
    "source": "workday",
    "details": {
@@ -54,7 +54,7 @@
    "job_id": "JR1044708-1",
    "title": "AI Engineer – Python, Machine Learning & Cloud Solutions",
    "location": "Bengaluru - Bellandur (GTP); Bengaluru - Thanissandra (BCIT); Bengaluru - EC-2 Gateway campus; Bengaluru - Client Location (India)",
-   "posted": "Posted 4 Days Ago",
+   "posted": "Posted 5 Days Ago",
    "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Bengaluru---Bellandur-GTP/AI-Engineer_JR1044708-1",
    "source": "workday",
    "details": {
@@ -87,7 +87,7 @@
    "job_id": "JR1043354-6",
    "title": "AI Architecture – Enterprise GenAI, LLMs, RAG, Agentic AI, Azure/AWS & MLOps",
    "location": "Bengaluru - Bellandur (GTP); Hyderabad  Eco Park; Pune - Hinjewadi (Ascendas); Mumbai (India)",
-   "posted": "Posted 11 Days Ago",
+   "posted": "Posted 12 Days Ago",
    "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Bengaluru---Bellandur-GTP/AI-Architecture---Leadership-Manager_JR1043354-6",
    "source": "workday",
    "details": {
@@ -112,7 +112,7 @@
    "job_id": "JR1044951",
    "title": "AWS Platform Engineer – Terraform | Kubernetes | AI/ML Cloud Services",
    "location": "Bengaluru - Thanissandra (BCIT); Bengaluru - Client Location (India)",
-   "posted": "Posted 3 Days Ago",
+   "posted": "Posted 4 Days Ago",
    "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Bengaluru---Thanissandra-BCIT/Sr-Platform-Engineer--AWS-Cloud-Engineer-_JR1044951",
    "source": "workday",
    "details": {
@@ -135,7 +135,7 @@
    "job_id": "JR1044771",
    "title": "Agentic AI Engineer – AWS Bedrock, LangGraph, RAG & Multi-Agent Systems",
    "location": "Pune - Hinjewadi (Ascendas)",
-   "posted": "Posted 4 Days Ago",
+   "posted": "Posted 5 Days Ago",
    "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Pune---Hinjewadi-Ascendas/Agentic-AI-Engineer---AWS-Bedrock--LangGraph--RAG---Multi-Agent-Systems_JR1044771",
    "source": "workday",
    "details": {
@@ -162,7 +162,7 @@
    "job_id": "JR1044773",
    "title": "Agentic AI Engineer – AWS Bedrock, LangGraph, RAG & Multi-Agent Systems",
    "location": "Pune - Hinjewadi (Ascendas)",
-   "posted": "Posted 4 Days Ago",
+   "posted": "Posted 5 Days Ago",
    "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Pune---Hinjewadi-Ascendas/Agentic-AI-Engineer---AWS-Bedrock--LangGraph--RAG---Multi-Agent-Systems_JR1044773",
    "source": "workday",
    "details": {
@@ -189,7 +189,7 @@
    "job_id": "JR112996",
    "title": "Analyst, HR Operations (EMEA Shift)",
    "location": "Pune, India",
-   "posted": "Posted 12 Days Ago",
+   "posted": "Posted 13 Days Ago",
    "url": "https://ptc.wd1.myworkdayjobs.com/en-US/PTC/job/Pune-India/Sr-Analyst--HR-Operations--EMEA-Shift-_JR112996",
    "source": "workday",
    "details": {
@@ -206,7 +206,7 @@
    "job_id": "32442",
    "title": "Financial Analyst I",
    "location": "Colombia Remote; Brazil Remote (Colombia)",
-   "posted": "Posted 16 Days Ago",
+   "posted": "Posted 17 Days Ago",
    "url": "https://csgi.wd5.myworkdayjobs.com/en-US/CSGCareers/job/Colombia-Remote/Financial-Analyst-I_32442",
    "source": "workday",
    "details": {
@@ -225,7 +225,7 @@
    "job_id": "JR1045372",
    "title": "Business Analyst",
    "location": "Pune - Client Location",
-   "posted": "Posted 24 Days Ago",
+   "posted": "Posted 25 Days Ago",
    "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Pune---Client-Location/Lead-BA_JR1045372",
    "source": "workday",
    "details": {
@@ -248,7 +248,7 @@
    "job_id": "JR1045906",
    "title": "Murex Business Analyst – Back Office",
    "location": "Pune - Hinjewadi (Ascendas)",
-   "posted": "Posted 11 Days Ago",
+   "posted": "Posted 12 Days Ago",
    "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Pune---Hinjewadi-Ascendas/Back-office-BA_JR1045906",
    "source": "workday",
    "details": {
@@ -261,26 +261,6 @@
     "category": "",
     "posted_date": "2026-11-03",
     "summary": "will support trade processing, settlements, confirmations, post-trade workflows, requirements analysis, configuration, testing, defect resolution, and implementation activities. The successful candidate will work with regional business and technology teams to translate operational requirements into practical Murex solutions.This position contributes to business objectives by improving post-trade processing efficiency, settlement accuracy, operational control, issue resolution, and alignment between business requirements and technology delivery.\n Software Requirements \n Required Software Skills \n Murex Back Office: Strong hands-on experience with Murex Back Office functionality and…"
-   }
-  },
-  {
-   "company": "Synechron",
-   "job_id": "JR1045275-1",
-   "title": "VisionPlus Technical Business Analyst",
-   "location": "Mumbai; Gurugram (India)",
-   "posted": "Posted 30 Days Ago",
-   "url": "https://synechron.wd1.myworkdayjobs.com/en-US/SynechronCareers/job/Mumbai/Technical-Business-Analyst---VisionPLUS--Cards---Payments--SQL_JR1045275-1",
-   "source": "workday",
-   "details": {
-    "tech": [
-     "SQL",
-     "Agile"
-    ],
-    "experience": "10+ years",
-    "employment": "Full time",
-    "category": "",
-    "posted_date": "2026-10-15",
-    "summary": "requires 10+ years of Business Analyst experience , with hands-on expertise in VisionPLUS applications and a strong understanding of the cards and payments domain. The successful candidate will gather and translate business requirements into functional solutions, support VisionPLUS and related payment systems, and coordinate delivery across business, development, testing, UAT, and production support teams. This role contributes to business objectives by enabling accurate requirements, effective system enhancements, reliable integrations, and timely delivery of payment-related solutions.\n Software Requirements (Required and Preferred) \n Required \n VisionPLUS: Hands-on experience with CMS,…"
    }
   }
  ]

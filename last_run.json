@@ -1,11 +1,11 @@
 {
- "ran_at": "2026-11-16T11:50+00:00",
+ "ran_at": "2026-11-16T23:10+00:00",
  "counts": {
-  "fetched": 345,
+  "fetched": 348,
   "relevant": 0,
   "new": 0,
   "by_company": {
-   "Amazon": 345
+   "Amazon": 348
   }
  },
  "errors": [

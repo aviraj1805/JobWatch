@@ -1,16 +1,16 @@
 {
- "ran_at": "2026-11-18T21:41+00:00",
+ "ran_at": "2026-11-19T11:57+00:00",
  "counts": {
-  "fetched": 343,
+  "fetched": 332,
   "relevant": 0,
   "new": 0,
   "by_company": {
-   "Amazon": 343
+   "Amazon": 332
   }
  },
  "errors": [
   "PTC: robots.txt for ptc.wd1.myworkdayjobs.com returned HTTP 429",
-  "CSG International: 429 Client Error: Too Many Requests for url: https://csgi.wd5.myworkdayjobs.com/wday/cxs/csgi/CSGCareers/jobs",
+  "CSG International: robots.txt for csgi.wd5.myworkdayjobs.com returned HTTP 429",
   "Marsh McLennan: robots.txt for mmc.wd1.myworkdayjobs.com returned HTTP 429",
   "Synechron: robots.txt for synechron.wd1.myworkdayjobs.com returned HTTP 429"
  ],

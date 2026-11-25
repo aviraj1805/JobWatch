@@ -1,38 +1,18 @@
 {
- "ran_at": "2026-11-25T13:16+00:00",
+ "ran_at": "2026-11-25T22:53+00:00",
  "counts": {
-  "fetched": 338,
-  "relevant": 1,
+  "fetched": 337,
+  "relevant": 0,
   "new": 0,
   "by_company": {
-   "Amazon": 338
+   "Amazon": 337
   }
  },
  "errors": [
   "PTC: robots.txt for ptc.wd1.myworkdayjobs.com returned HTTP 429",
-  "CSG International: robots.txt for csgi.wd5.myworkdayjobs.com returned HTTP 429",
+  "CSG International: 429 Client Error: Too Many Requests for url: https://csgi.wd5.myworkdayjobs.com/wday/cxs/csgi/CSGCareers/jobs",
   "Marsh McLennan: robots.txt for mmc.wd1.myworkdayjobs.com returned HTTP 429",
-  "Synechron: robots.txt for synechron.wd1.myworkdayjobs.com returned HTTP 429"
+  "Synechron: 429 Client Error: Too Many Requests for url: https://synechron.wd1.myworkdayjobs.com/wday/cxs/synechron/SynechronCareers/jobs"
  ],
- "jobs": [
-  {
-   "company": "Amazon",
-   "job_id": "10609353",
-   "title": "FinOps Analyst - AP, AP Healthcare",
-   "location": "Pune, Maharashtra, IND",
-   "posted": "November 23, 2026",
-   "url": "https://www.amazon.jobs/en/jobs/10609353/finops-analyst-ap-ap-healthcare",
-   "source": "amazon",
-   "details": {
-    "tech": [
-     "Excel"
-    ],
-    "experience": "Not stated",
-    "employment": "Full time",
-    "category": "Administrative Support",
-    "posted_date": "2026-11-23",
-    "summary": "• Contributes to the successful management of healthcare payable operations, including invoice management, resolving invoice tolerances, account reconciliations, vendor communication.\n• Interfaces with vendors, PO requesters and approvers to ensure timely and accurate resolution of accounts payables. \nIndependently identify areas of operational opportunity. Prioritizes using analysis and investigation, presents recommendations and drive implementation by collaborating with cross functional teams. \n• Reviews and recommends changes to policies and procedures to improve Accounts payables processes. \n• Participates in the development of training materials and quality assurance programs. \n•…"
-   }
-  }
- ]
+ "jobs": []
 }

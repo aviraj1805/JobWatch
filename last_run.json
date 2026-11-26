@@ -1,18 +1,58 @@
 {
- "ran_at": "2026-11-25T22:53+00:00",
+ "ran_at": "2026-11-26T12:57+00:00",
  "counts": {
-  "fetched": 337,
-  "relevant": 0,
-  "new": 0,
+  "fetched": 338,
+  "relevant": 2,
+  "new": 2,
   "by_company": {
-   "Amazon": 337
+   "Amazon": 338
   }
  },
  "errors": [
-  "PTC: robots.txt for ptc.wd1.myworkdayjobs.com returned HTTP 429",
-  "CSG International: 429 Client Error: Too Many Requests for url: https://csgi.wd5.myworkdayjobs.com/wday/cxs/csgi/CSGCareers/jobs",
-  "Marsh McLennan: robots.txt for mmc.wd1.myworkdayjobs.com returned HTTP 429",
+  "PTC: 429 Client Error: Too Many Requests for url: https://ptc.wd1.myworkdayjobs.com/wday/cxs/ptc/PTC/jobs",
+  "CSG International: robots.txt for csgi.wd5.myworkdayjobs.com returned HTTP 429",
+  "Marsh McLennan: 429 Client Error: Too Many Requests for url: https://mmc.wd1.myworkdayjobs.com/wday/cxs/mmc/MMC/jobs",
   "Synechron: 429 Client Error: Too Many Requests for url: https://synechron.wd1.myworkdayjobs.com/wday/cxs/synechron/SynechronCareers/jobs"
  ],
- "jobs": []
+ "jobs": [
+  {
+   "company": "Amazon",
+   "job_id": "10615143",
+   "title": "Data Center Technician, Data Center Operations (DCO)",
+   "location": "Mumbai, Maharashtra, IND",
+   "posted": "November 26, 2026",
+   "url": "https://www.amazon.jobs/en/jobs/10615143/data-center-technician-data-center-operations-dco",
+   "source": "amazon",
+   "details": {
+    "tech": [
+     "AWS",
+     "Linux"
+    ],
+    "experience": "2+ years",
+    "employment": "Full time",
+    "category": "Operations, IT, & Support Engineering",
+    "posted_date": "2026-11-26",
+    "summary": "Design, implement, and maintain Linux-based server infrastructures with a focus on reliability and scalability.\nPerform comprehensive system monitoring, diagnostics, and performance optimization\n Configure and manage network hardware, including switches, routers, and complex cabling systems\n Develop and maintain robust backup and disaster recovery strategies.\n Collaborate with cross-functional teams to ensure seamless technological integration.\nAbout the team\nAbout AWS\nDiverse Experiences \nAmazon values diverse experiences. Even if you do not meet all of the preferred qualifications and skills listed in the job description, we encourage candidates to apply. If your career is just starting,…"
+   }
+  },
+  {
+   "company": "Amazon",
+   "job_id": "10615141",
+   "title": "Data Center Engineering Operations Engineer",
+   "location": "Mumbai, Maharashtra, IND",
+   "posted": "November 26, 2026",
+   "url": "https://www.amazon.jobs/en/jobs/10615141/data-center-engineering-operations-engineer",
+   "source": "amazon",
+   "details": {
+    "tech": [
+     "AWS"
+    ],
+    "experience": "2+ years",
+    "employment": "Full time",
+    "category": "Operations, IT, & Support Engineering",
+    "posted_date": "2026-11-26",
+    "summary": "and SME fields include, but are not limited to:\nOperations and Maintenance:\n· Ownership of all Data Center changes/events/incidents/problems from beginning to end as well as overseeing the completion of post-mortems, root cause analysis and follow-up resolution actions.\n· Responsible for ensuring maintenance/ repairs of site-critical facility infrastructure or a Data Center are planned and executed to the best interest of the business.\n· Responsible for Asset and Inventory management.\n· Develop and maintain method statements, standard operating procedures, emergency response procedures, preventive maintenance programs, and all technical documentation.\n· Ensure standardization and…"
+   }
+  }
+ ]
 }

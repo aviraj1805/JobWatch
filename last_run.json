@@ -1,20 +1,58 @@
 {
- "ran_at": "2026-11-26T12:57+00:00",
+ "ran_at": "2026-11-26T22:45+00:00",
  "counts": {
-  "fetched": 338,
-  "relevant": 2,
+  "fetched": 342,
+  "relevant": 4,
   "new": 2,
   "by_company": {
-   "Amazon": 338
+   "Amazon": 342
   }
  },
  "errors": [
-  "PTC: 429 Client Error: Too Many Requests for url: https://ptc.wd1.myworkdayjobs.com/wday/cxs/ptc/PTC/jobs",
+  "PTC: robots.txt for ptc.wd1.myworkdayjobs.com returned HTTP 429",
   "CSG International: robots.txt for csgi.wd5.myworkdayjobs.com returned HTTP 429",
-  "Marsh McLennan: 429 Client Error: Too Many Requests for url: https://mmc.wd1.myworkdayjobs.com/wday/cxs/mmc/MMC/jobs",
-  "Synechron: 429 Client Error: Too Many Requests for url: https://synechron.wd1.myworkdayjobs.com/wday/cxs/synechron/SynechronCareers/jobs"
+  "Marsh McLennan: robots.txt for mmc.wd1.myworkdayjobs.com returned HTTP 429",
+  "Synechron: robots.txt for synechron.wd1.myworkdayjobs.com returned HTTP 429"
  ],
  "jobs": [
+  {
+   "company": "Amazon",
+   "job_id": "10615427",
+   "title": "Data Center Engineering Operations Engineer, Data center engineering operation ",
+   "location": "Mumbai, Maharashtra, IND",
+   "posted": "November 26, 2026",
+   "url": "https://www.amazon.jobs/en/jobs/10615427/data-center-engineering-operations-engineer-data-center-engineering-operation",
+   "source": "amazon",
+   "details": {
+    "tech": [
+     "AWS"
+    ],
+    "experience": "2+ years",
+    "employment": "Full time",
+    "category": "Operations, IT, & Support Engineering",
+    "posted_date": "2026-11-26",
+    "summary": "Following are the primary responsibilities (but not limited to) of Data Center Engineering Operations (DCEO) Engineer:\nOperations and Maintenance:\n· Ownership of all Data Center changes/events/incidents/problems from beginning to end as well as overseeing the completion of post-mortems, root cause analysis and follow-up resolution actions.\n· Responsible for ensuring maintenance/ repairs of site-critical facility infrastructure or a Data Center are planned and executed to the best interest of the business.\n· Responsible for Asset and Inventory management.\n· Develop and maintain method statements, standard operating procedures, emergency response procedures, preventive maintenance programs,…"
+   }
+  },
+  {
+   "company": "Amazon",
+   "job_id": "10615426",
+   "title": "Data Center Engineering Operations Engineer, Data center engineering operation ",
+   "location": "Mumbai, Maharashtra, IND",
+   "posted": "November 26, 2026",
+   "url": "https://www.amazon.jobs/en/jobs/10615426/data-center-engineering-operations-engineer-data-center-engineering-operation",
+   "source": "amazon",
+   "details": {
+    "tech": [
+     "AWS"
+    ],
+    "experience": "2+ years",
+    "employment": "Full time",
+    "category": "Operations, IT, & Support Engineering",
+    "posted_date": "2026-11-26",
+    "summary": "Following are the primary responsibilities (but not limited to) of Data Center Engineering Operations (DCEO) Engineer:\nOperations and Maintenance:\n· Ownership of all Data Center changes/events/incidents/problems from beginning to end as well as overseeing the completion of post-mortems, root cause analysis and follow-up resolution actions.\n· Responsible for ensuring maintenance/ repairs of site-critical facility infrastructure or a Data Center are planned and executed to the best interest of the business.\n· Responsible for Asset and Inventory management.\n· Develop and maintain method statements, standard operating procedures, emergency response procedures, preventive maintenance programs,…"
+   }
+  },
   {
    "company": "Amazon",
    "job_id": "10615143",

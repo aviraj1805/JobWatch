@@ -1,20 +1,80 @@
 {
- "ran_at": "2026-11-27T12:52+00:00",
+ "ran_at": "2026-11-27T22:27+00:00",
  "counts": {
-  "fetched": 339,
-  "relevant": 4,
-  "new": 0,
+  "fetched": 337,
+  "relevant": 7,
+  "new": 3,
   "by_company": {
-   "Amazon": 339
+   "Amazon": 337
   }
  },
  "errors": [
   "PTC: robots.txt for ptc.wd1.myworkdayjobs.com returned HTTP 429",
-  "CSG International: 429 Client Error: Too Many Requests for url: https://csgi.wd5.myworkdayjobs.com/wday/cxs/csgi/CSGCareers/jobs",
+  "CSG International: robots.txt for csgi.wd5.myworkdayjobs.com returned HTTP 429",
   "Marsh McLennan: robots.txt for mmc.wd1.myworkdayjobs.com returned HTTP 429",
   "Synechron: robots.txt for synechron.wd1.myworkdayjobs.com returned HTTP 429"
  ],
  "jobs": [
+  {
+   "company": "Amazon",
+   "job_id": "10615801",
+   "title": "Data Center Logistics Specialist, Data Center Logistics Specialist",
+   "location": "Mumbai, Maharashtra, IND",
+   "posted": "November 27, 2026",
+   "url": "https://www.amazon.jobs/en/jobs/10615801/data-center-logistics-specialist-data-center-logistics-specialist",
+   "source": "amazon",
+   "details": {
+    "tech": [
+     "AWS",
+     "Excel"
+    ],
+    "experience": "2+ years",
+    "employment": "Full time",
+    "category": "Operations, IT, & Support Engineering",
+    "posted_date": "2026-11-27",
+    "summary": "Key job responsibilities\nLogistics Specialists are expected to understand all aspects of transportation, shipping and receiving as well as inventory control, adhere to strict safety standards, maintain very high quality, and be willing and able to work on material handling equipment (i.e Pallet Jack).\n - Completing manual tasks, such as assembling, addressing and arranging for the shipment of materials, handling incoming shipments, unpack boxes and verify contents\n - Load and unload large equipment utilizing pallet jacks\n - Maintain accountability of in-stock components as well as receive and process inbound shipments\n - Assist with ongoing requests to ensure that proper stock levels are…"
+   }
+  },
+  {
+   "company": "Amazon",
+   "job_id": "10615968",
+   "title": "Functional App Analyst, AFFS Accounting Onboarding ",
+   "location": "Pune, Maharashtra, IND",
+   "posted": "November 27, 2026",
+   "url": "https://www.amazon.jobs/en/jobs/10615968/functional-app-analyst-affs-accounting-onboarding",
+   "source": "amazon",
+   "details": {
+    "tech": [
+     "SQL",
+     "SAP"
+    ],
+    "experience": "2+ years",
+    "employment": "Full time",
+    "category": "Administrative Support",
+    "posted_date": "2026-11-27",
+    "summary": "offers significant opportunities for rapid growth and is a great place to learn about various businesses at Amazon.\nKey job responsibilities\n- Must have knowledge of an application’s functionality. They know what functionality is available in their system and how to configure it to work for business processes\n- Help customers author and release accounting configurations using home grown business configuration management solutions.\n- Troubleshoot integration issues by partnering with internal technical teams across the orgs.\n- Work very closely with the technical teams across Amazon's lines of businesses to come up with innovative solutions that will accelerate the adoption of technology…"
+   }
+  },
+  {
+   "company": "Amazon",
+   "job_id": "10615969",
+   "title": "Functional App Analyst, AFFS Accounting Onboarding ",
+   "location": "Pune, Maharashtra, IND",
+   "posted": "November 27, 2026",
+   "url": "https://www.amazon.jobs/en/jobs/10615969/functional-app-analyst-affs-accounting-onboarding",
+   "source": "amazon",
+   "details": {
+    "tech": [
+     "SQL",
+     "SAP"
+    ],
+    "experience": "2+ years",
+    "employment": "Full time",
+    "category": "Administrative Support",
+    "posted_date": "2026-11-27",
+    "summary": "offers significant opportunities for rapid growth and is a great place to learn about various businesses at Amazon.\nKey job responsibilities\n- Must have knowledge of an application’s functionality. They know what functionality is available in their system and how to configure it to work for business processes\n- Help customers author and release accounting configurations using home grown business configuration management solutions.\n- Troubleshoot integration issues by partnering with internal technical teams across the orgs.\n- Work very closely with the technical teams across Amazon's lines of businesses to come up with innovative solutions that will accelerate the adoption of technology…"
+   }
+  },
   {
    "company": "Amazon",
    "job_id": "10615427",
